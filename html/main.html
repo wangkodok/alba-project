@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- css -->
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/font.css">
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/swiper.css">
+  <link rel="stylesheet" href="../css/style.css">
+
+  <!-- swiper.js -->
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+  <!-- jq -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.0-rc.2/jquery-ui.min.js"></script>
+  <script src="../js/ui-jquery.js"></script>
+
+  <title>함소아한의원 대전점</title>
+</head>
+
+<body>
+  <div class="wrap">
+    <header class="header main-header">
+      <div class="inner">
+        <div class="contents">
+          <h1 class="logo">
+            <a href="../html/main.html" class="link">
+              <img src="../image/main-logo.png" class="img" alt="">
+            </a>
+          </h1>
+          <nav class="gnb">
+            <ul class="list">
+              <li class="item">
+                <a href="../html/hsa-Intro.html" class="link">한의원소개</a>
+              </li>
+              <li class="item">
+                <a href="../html/doctor-intro.html" class="link">의료진 소개</a>
+              </li>
+              <li class="item">
+                <a href="" class="link">진료과목</a>
+                <ul class="lnb-list">
+                  <li class="lnb-item">
+                    <a href="../html/subject-01.html" class="lnb-link">호흡기</a>
+                    <div class="lnb03-wrap">
+                      <ul class="lnb03-list">
+                        <li class="lnb03-item"><a href="">축농증</a></li>
+                        <li class="lnb03-item"><a href="">천식</a></li>
+                        <li class="lnb03-item"><a href="">중이염</a></li>
+                        <li class="lnb03-item"><a href="">잦은감기</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/subject-02.html" class="lnb-link">소화기</a>
+                    <div class="lnb03-wrap">
+                      <ul class="lnb03-list">
+                        <li class="lnb03-item"><a href="">변비</a></li>
+                        <li class="lnb03-item"><a href="">장염/설사</a></li>
+                        <li class="lnb03-item"><a href="">식욕부진</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/subject-03.html" class="lnb-link">피부</a>
+                    <div class="lnb03-wrap">
+                      <ul class="lnb03-list">
+                        <li class="lnb03-item"><a href="">아토피</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/subject-04.html" class="lnb-link">수면</a>
+                    <div class="lnb03-wrap">
+                      <ul class="lnb03-list">
+                        <li class="lnb03-item"><a href="">수면장애/야제</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/subject-05.html" class="lnb-link">성장</a>
+                    <div class="lnb03-wrap">
+                      <ul class="lnb03-list">
+                        <li class="lnb03-item"><a href="">첫돌보약</a></li>
+                        <li class="lnb03-item"><a href="">성장</a></li>
+                        <li class="lnb03-item"><a href="">소아비만</a></li>
+                        <li class="lnb03-item"><a href="">성조숙</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/subject-06.html" class="lnb-link">심리</a>
+                    <div class="lnb03-wrap">
+                      <ul class="lnb03-list">
+                        <li class="lnb03-item"><a href="">틱</a></li>
+                        <li class="lnb03-item"><a href="">야뇨/빈뇨</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/subject-07.html" class="lnb-link">교통사고</a>
+                    <div class="lnb03-wrap">
+                      <ul class="lnb03-list">
+                        <li class="lnb03-item"><a href="">어린이 교통사고 후유증</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+                <!-- <div class="lnb-box">
+                  <div class="arr-box">
+                    <div class="lnb-arr"></div>
+                  </div>
+                  <ul class="lnb-list">
+                    <li class="lnb-item">
+                      <a href="../html/subject-01.html" class="lnb-link">축농증</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-02.html" class="lnb-link">저성장</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-03.html" class="lnb-link">아토피</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-04.html" class="lnb-link">소아비만</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-05.html" class="lnb-link">저체중</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-06.html" class="lnb-link">폐렴</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-07.html" class="lnb-link">기관지염</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-08.html" class="lnb-link">식욕부진</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-09.html" class="lnb-link">수면장애</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-10.html" class="lnb-link">틱장애</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-11.html" class="lnb-link">변비</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-12.html" class="lnb-link">비염</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-13.html" class="lnb-link">천식</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-14.html" class="lnb-link">중이염</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-15.html" class="lnb-link">편도염</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-16.html" class="lnb-link">잦은감기</a>
+                    </li>
+                  </ul>
+                </div> -->
+              </li>
+              <li class="item">
+                <a href="../html/hmu-clinic.html" class="link">한마음 클리닉</a>
+              </li>
+              <li class="item">
+                <a href="../html/treatment-case.html" class="link">치료사례</a>
+              </li>
+              <li class="item">
+                <a href="../html/health-qa.html" class="link">건강정보</a>
+              </li>
+              <li class="item">
+                <a href="../html/method.html" class="link">Q&A치료 방법</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="user">
+            <ul class="list">
+              <li class="item">
+                <a href="" class="link">
+                  <i class="login"></i>
+                  <span class="text">로그인</span>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="link">
+                  <i class="join"></i>
+                  <span class="text">회원가입</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- 햄버거 메뉴 -->
+          <button class="menu-btn">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </button>
+          <!-- 햄버거 메뉴 콘텐츠 -->
+          <div class="hbg">
+            <div class="hbg-menu">
+              <button class="sect01">
+                <div class="line-box">
+                  <span class="line-01"></span>
+                  <span class="line-02"></span>
+                </div>
+              </button>
+              <ul class="list">
+                <li class="item">
+                  <a href="../html/hsa-Intro.html" class="link">한의원소개</a>
+                </li>
+                <li class="item">
+                  <a href="../html/doctor-intro.html" class="link">의료진 소개</a>
+                </li>
+                <li class="item">
+                  <a href="#" class="link">진료과목</a>
+                  <ul class="depth2-list">
+                    <li class="depth2-item">
+                      <a href="../html/subject-01.html">호흡기</a>
+                      <div class="depth3-wrap">
+                        <ul class="depth3-list">
+                          <li class="depth3-item"><a href="">축농증</a></li>
+                          <li class="depth3-item"><a href="">천식</a></li>
+                          <li class="depth3-item"><a href="">중이염</a></li>
+                          <li class="depth3-item"><a href="">잦은감기</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="depth2-item">
+                      <a href="../html/subject-02.html">소화기</a>
+                      <div class="depth3-wrap">
+                        <ul class="depth3-list">
+                          <li class="depth3-item"><a href="">변비</a></li>
+                          <li class="depth3-item"><a href="">장염/설사</a></li>
+                          <li class="depth3-item"><a href="">식욕부진</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="depth2-item">
+                      <a href="../html/subject-03.html">피부</a>
+                      <div class="depth3-wrap">
+                        <ul class="depth3-list">
+                          <li class="depth3-item"><a href="">아토피</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="depth2-item">
+                      <a href="../html/subject-04.html">수면</a>
+                      <div class="depth3-wrap">
+                        <ul class="depth3-list">
+                          <li class="depth3-item"><a href="">수면장애/야제</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="depth2-item">
+                      <a href="../html/subject-05.html">성장</a>
+                      <div class="depth3-wrap">
+                        <ul class="depth3-list">
+                          <li class="depth3-item"><a href="">첫돌보약</a></li>
+                          <li class="depth3-item"><a href="">성장</a></li>
+                          <li class="depth3-item"><a href="">소아비만</a></li>
+                          <li class="depth3-item"><a href="">성조숙</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="depth2-item">
+                      <a href="../html/subject-06.html">심리</a>
+                      <div class="depth3-wrap">
+                        <ul class="depth3-list">
+                          <li class="depth3-item"><a href="">틱</a></li>
+                          <li class="depth3-item"><a href="">야뇨/빈뇨</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="depth2-item">
+                      <a href="../html/subject-07.html">교통사고</a>
+                      <div class="depth3-wrap">
+                        <ul class="depth3-list">
+                          <li class="depth3-item"><a href="">어린이 교통사고 후유증</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <li class="item">
+                  <a href="../html/hmu-clinic.html" class="link">한마음 클리닉</a>
+                </li>
+                <li class="item">
+                  <a href="../html/treatment-case.html" class="link">치료사례</a>
+                </li>
+                <li class="item">
+                  <a href="../html/health-qa.html" class="link">건강정보</a>
+                </li>
+                <li class="item">
+                  <a href="../html/method.html" class="link">Q&A치료 방법</a>
+                </li>
+              </ul>
+              <ul class="hbg-util">
+                <li><a href="" class="login">로그인</a></li>
+                <li><a href="" class="join">회원가입</a></li>
+              </ul>
+            </div>
+            <div class="bg"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- 메인 페이지 -->
+    <main class="main">
+      <!-- 메인 비주얼 -->
+      <section class="main-visual">
+        <div class="inner">
+          <div class="contents">
+            <div class="swiper mySwiper">
+              <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                  <div class="text-box">
+                    <h3 class="title">함박 웃는 아이, 함소아</h3>
+                    <div class="chinese-bg"></div>
+                    <p class="title-desc">
+                      함소아한의원 대전점은 <br>
+                      아이가 조금이라도 편안하게 치료를 받을 수 있고 <br>
+                      아픈 아이를 돌보느라 지치고 힘든 부모님에게 <br>
+                      든든한 힘이 되고자 아주 작은 것부터 세심하게 배려합니다. <br>
+                    </p>
+                  </div>
+                  <div class="visual-img-box">
+                    <img src="../image/main-visual01.png" class="visual-img" alt="">
+                  </div>
+                </li>
+                <li class="swiper-slide">
+                  <div class="text-box">
+                    <h3 class="title">자연 면역력과 올바른 성장</h3>
+                    <p class="title-desc">
+                      함소아한의원 대전점은 <br>
+                      자연 면역력과 올바른 성장을 중요하게 생각하고 <br>
+                      치료하고 관리합니다. <br>
+                    </p>
+                  </div>
+                  <div class="visual-img-box">
+                    <img src="../image/main-visual02.png" class="visual-img" alt="">
+                  </div>
+                </li>
+              </ul>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 진료 과목 리스트 -->
+      <section class="icon-list">
+        <div class="inner">
+          <div class="icon-list-contents">
+            <p class="title">진료과목</p>
+            <ul class="list">
+              <li class="item">
+                <a href="" class="link">
+                  <i class="icon"></i>
+                  <span class="tit">축농증</span>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="link">
+                  <i class="icon"></i>
+                  <span class="tit">저성장</span>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="link">
+                  <i class="icon"></i>
+                  <span class="tit">아토피</span>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="link">
+                  <i class="icon"></i>
+                  <span class="tit">소아비만</span>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="link">
+                  <i class="icon"></i>
+                  <span class="tit">저체중</span>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="link">
+                  <i class="icon"></i>
+                  <span class="tit">폐렴</span>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="link">
+                  <i class="icon"></i>
+                  <span class="tit">기관지염</span>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="link">
+                  <i class="icon"></i>
+                  <span class="tit">식욕부진</span>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="link">
+                  <i class="icon"></i>
+                  <span class="tit">수면장애</span>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="link">
+                  <i class="icon"></i>
+                  <span class="tit">틱장애</span>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="link">
+                  <i class="icon"></i>
+                  <span class="tit">변비</span>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="link">
+                  <i class="icon"></i>
+                  <span class="tit">비염</span>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="link">
+                  <i class="icon"></i>
+                  <span class="tit">천식</span>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="link">
+                  <i class="icon"></i>
+                  <span class="tit">중이염</span>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="link">
+                  <i class="icon"></i>
+                  <span class="tit">편도염</span>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="link">
+                  <i class="icon"></i>
+                  <span class="tit">잦은 감기</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- 원장님 사진 -->
+      <section class="hsa-ycs">
+        <div class="inner">
+          <div class="hsa-ycs-contents">
+            <div class="text-box">
+              <div class="text-area">
+                <p class="text">함소아한의원 서대전점</p>
+                <p class="title">유길성 원장</p>
+                <p class="desc">정성과 진심을 다해 진료하여 급하고 어려울 때<br> 가장 먼저 믿고 상의할 수 있는 주치의가 되겠습니다.</p>
+              </div>
+              
+
+
+
+
+
+
+
+
+
+              <ul class="list">
+                <li class="item">
+                  <p class="text">
+                    現) 서대전점 함소아한의원 대표원장
+
+
+
+                  </p>
+                </li>
+                <li class="item">
+                  <p class="text">
+                    前) 평택점 함소아한의원 원장
+
+
+                  </p>
+                </li>
+                <li class="item">
+                  <p class="text">
+                    대전대학교 한의과대학 졸업
+                    
+         
+                  </p>
+                </li>
+                <li class="item">
+                  <p class="text">
+                    대전대학교 한의과대학원 과정
+                    
+                
+                  </p>
+                </li>
+                <li class="item">
+                  <p class="text">
+                    대한한방소아학회 정회원
+                    
+                 
+                  </p>
+                </li>
+                <li class="item">
+                  <p class="text">
+                    대한한의학회 정회원
+                    
+                    
+                  </p>
+                </li>
+                <li class="item">
+                  <p class="text">
+                    대한한방가정의학회 정회원
+                   
+                  </p>
+                </li>
+                <li class="item">
+                  <p class="text">
+                     
+                    대한약침학회 정회원
+                    
+               
+                  </p>
+                </li>
+                <li class="item">
+                  <p class="text">
+                     
+                    한방레이저의학회 정회원
+                    
+               
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="bg">
+              <img src="../image/main-hsa-ych.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 내부 사진들 -->
+      <section class="daejeon">
+        <div class="inner">
+          <div class="contents">
+            <p class="contents-title">함소아한의원 서대전점 둘러보기</p>
+            <div class="daejeon-slider">
+              <div class="swiper daejeon-mySwiper">
+                <ul class="swiper-wrapper">
+                  <li class="swiper-slide">
+                    <div class="contents-area">
+                      <div class="phto-box">
+                        <img src="../image/main-d-phto.jpg" class="phto" alt="">
+                      </div>
+                      <div class="contents-text-box">
+                        <div class="text-box">
+                          <span class="tit">테라피실</span>
+                          <p class="txt">
+                            통증치료를 비롯해서 각종 치료를 받을 수 있는
+                            공간이 마련되어 있습니다.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="swiper-slide">
+                    <div class="contents-area">
+                      <div class="phto-box">
+                        <img src="../image/_B4W2148.jpg" class="phto" alt="">
+                      </div>
+                      <div class="contents-text-box">
+                        <div class="text-box">
+                          <span class="tit">텍스트01</span>
+                          <p class="txt">
+                            통증치료를 비롯해서 각종 치료를 받을 수 있는
+                            공간이 마련되어 있습니다.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="swiper-slide">
+                    <div class="contents-area">
+                      <div class="phto-box">
+                        <img src="../image/_B4W2161.jpg" class="phto" alt="">
+                      </div>
+                      <div class="contents-text-box">
+                        <div class="text-box">
+                          <span class="tit">텍스트02</span>
+                          <p class="txt">
+                            통증치료를 비롯해서 각종 치료를 받을 수 있는
+                            공간이 마련되어 있습니다.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="swiper-slide">
+                    <div class="contents-area">
+                      <div class="phto-box">
+                        <img src="../image/_B4W2182.jpg" class="phto" alt="">
+                      </div>
+                      <div class="contents-text-box">
+                        <div class="text-box">
+                          <span class="tit">텍스트03</span>
+                          <p class="txt">
+                            통증치료를 비롯해서 각종 치료를 받을 수 있는
+                            공간이 마련되어 있습니다.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="swiper-slide">
+                    <div class="contents-area">
+                      <div class="phto-box">
+                        <img src="../image/_B4W2186.jpg" class="phto" alt="">
+                      </div>
+                      <div class="contents-text-box">
+                        <div class="text-box">
+                          <span class="tit">텍스트04</span>
+                          <p class="txt">
+                            통증치료를 비롯해서 각종 치료를 받을 수 있는
+                            공간이 마련되어 있습니다.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="swiper-slide">
+                    <div class="contents-area">
+                      <div class="phto-box">
+                        <img src="../image/_B4W2191.jpg" class="phto" alt="">
+                      </div>
+                      <div class="contents-text-box">
+                        <div class="text-box">
+                          <span class="tit">텍스트05</span>
+                          <p class="txt">
+                            통증치료를 비롯해서 각종 치료를 받을 수 있는
+                            공간이 마련되어 있습니다.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="swiper-slide">
+                    <div class="contents-area">
+                      <div class="phto-box">
+                        <img src="../image/_B4W2199.jpg" class="phto" alt="">
+                      </div>
+                      <div class="contents-text-box">
+                        <div class="text-box">
+                          <span class="tit">텍스트06</span>
+                          <p class="txt">
+                            통증치료를 비롯해서 각종 치료를 받을 수 있는
+                            공간이 마련되어 있습니다.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="swiper-slide">
+                    <div class="contents-area">
+                      <div class="phto-box">
+                        <img src="../image/_B4W2203.jpg" class="phto" alt="">
+                      </div>
+                      <div class="contents-text-box">
+                        <div class="text-box">
+                          <span class="tit">텍스트07</span>
+                          <p class="txt">
+                            통증치료를 비롯해서 각종 치료를 받을 수 있는
+                            공간이 마련되어 있습니다.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="swiper-slide">
+                    <div class="contents-area">
+                      <div class="phto-box">
+                        <img src="../image/_B4W2203.jpg" class="phto" alt="">
+                      </div>
+                      <div class="contents-text-box">
+                        <div class="text-box">
+                          <span class="tit">텍스트08</span>
+                          <p class="txt">
+                            통증치료를 비롯해서 각종 치료를 받을 수 있는
+                            공간이 마련되어 있습니다.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="swiper-slide">
+                    <div class="contents-area">
+                      <div class="phto-box">
+                        <img src="../image/_B4W2206.jpg" class="phto" alt="">
+                      </div>
+                      <div class="contents-text-box">
+                        <div class="text-box">
+                          <span class="tit">텍스트09</span>
+                          <p class="txt">
+                            통증치료를 비롯해서 각종 치료를 받을 수 있는
+                            공간이 마련되어 있습니다.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="swiper-slide">
+                    <div class="contents-area">
+                      <div class="phto-box">
+                        <img src="../image/_B4W2211.jpg" class="phto" alt="">
+                      </div>
+                      <div class="contents-text-box">
+                        <div class="text-box">
+                          <span class="tit">텍스트10</span>
+                          <p class="txt">
+                            통증치료를 비롯해서 각종 치료를 받을 수 있는
+                            공간이 마련되어 있습니다.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="swiper-slide">
+                    <div class="contents-area">
+                      <div class="phto-box">
+                        <img src="../image/_B4W2215.jpg" class="phto" alt="">
+                      </div>
+                      <div class="contents-text-box">
+                        <div class="text-box">
+                          <span class="tit">텍스트11</span>
+                          <p class="txt">
+                            통증치료를 비롯해서 각종 치료를 받을 수 있는
+                            공간이 마련되어 있습니다.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="swiper-slide">
+                    <div class="contents-area">
+                      <div class="phto-box">
+                        <img src="../image/_B4W2228.jpg" class="phto" alt="">
+                      </div>
+                      <div class="contents-text-box">
+                        <div class="text-box">
+                          <span class="tit">텍스트12</span>
+                          <p class="txt">
+                            통증치료를 비롯해서 각종 치료를 받을 수 있는
+                            공간이 마련되어 있습니다.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="swiper-slide">
+                    <div class="contents-area">
+                      <div class="phto-box">
+                        <img src="../image/_B4W2235.jpg" class="phto" alt="">
+                      </div>
+                      <div class="contents-text-box">
+                        <div class="text-box">
+                          <span class="tit">텍스트13</span>
+                          <p class="txt">
+                            통증치료를 비롯해서 각종 치료를 받을 수 있는
+                            공간이 마련되어 있습니다.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="swiper-slide">
+                    <div class="contents-area">
+                      <div class="phto-box">
+                        <img src="../image/_B4W2235.jpg" class="phto" alt="">
+                      </div>
+                      <div class="contents-text-box">
+                        <div class="text-box">
+                          <span class="tit">텍스트14</span>
+                          <p class="txt">
+                            통증치료를 비롯해서 각종 치료를 받을 수 있는
+                            공간이 마련되어 있습니다.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="swiper-slide">
+                    <div class="contents-area">
+                      <div class="phto-box">
+                        <img src="../image/_B4W2243.jpg" class="phto" alt="">
+                      </div>
+                      <div class="contents-text-box">
+                        <div class="text-box">
+                          <span class="tit">텍스트15</span>
+                          <p class="txt">
+                            통증치료를 비롯해서 각종 치료를 받을 수 있는
+                            공간이 마련되어 있습니다.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="swiper-slide">
+                    <div class="contents-area">
+                      <div class="phto-box">
+                        <img src="../image/_B4W2252.jpg" class="phto" alt="">
+                      </div>
+                      <div class="contents-text-box">
+                        <div class="text-box">
+                          <span class="tit">텍스트16</span>
+                          <p class="txt">
+                            통증치료를 비롯해서 각종 치료를 받을 수 있는
+                            공간이 마련되어 있습니다.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 페이지 정보 -->
+      <section class="company">
+        <div class="inner">
+          <div class="contents">
+            <div class="company-info">
+              <ul class="list">
+                <li class="item">
+                  <div class="num">
+                    <p class="tit">상담문의</p>
+                    <p class="text phone">042-538-1075</span>
+                  </div>
+                </li>
+                <li class="item">
+                  <div class="num">
+                    <p class="tit">카톡문의</p>
+                    <p class="text">카카오 아이디검색에서 <span>'sdjhamsoa1'</span>을 검색해보세요.</p>
+                  </div>
+                </li>
+                <li class="item">
+                  <div class="num">
+                    <p class="tit">진료시간</p>
+                    <p>
+                      <span class="date">월~금</span>
+                      <span>10:00 ~ 17:30</span>
+                    </p>
+                    <p>
+                      <span class="date">토요일</span>
+                      <span>09:30 ~ 16:00</span>
+                    </p>
+                    <p>
+                      <span class="date">점심시간</span>
+                      <span>12:30 ~ 14:00</span>
+                    </p>
+                  </div>
+                </li>
+                <li class="item">
+                  <p class="tit">함소아한의원 서대전점 SNS</p>
+                  <ul class="sns-list">
+                    <li class="sns-item">
+                      <a href="" class="sns-icon"></a>
+                    </li>
+                    <li class="sns-item">
+                      <a href="https://m.blog.naver.com/PostList.naver?blogId=yunhan22" target="_blank"
+                        class="sns-icon"></a>
+                    </li>
+                    <li class="sns-item">
+                      <a href="" class="sns-icon"></a>
+                    </li>
+                    <li class="sns-item">
+                      <a href="" class="sns-icon"></a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="company-map">
+              <img src="../image/main-comp-map.png" class="phto" alt="">
+              <div class="text-box">
+                <ul class="list">
+                  <li class="item">
+                    <i class="icon"></i>
+                    <p class="txt">자가용을 이용하실 경우</p>
+                    <p class="txt-desc">
+                      네비게이션 주소 : 대전 중구 오류동 151-1번지 메종드메디컬빌딩 (도로명 주소 : 대전 중구 계룡로 876)<br>
+                      소형차/승용차 : 건물내 지하주차장<br>
+                      외제차/대형차 : 대전 중구 오류동 175-6번지 (부흥주차장)<br>
+                    </p>
+                  </li>
+                  <li class="item">
+                    <i class="icon"></i>
+                    <p class="txt">지하철을 이용하실 경우</p>
+                    <p class="txt-desc">
+                      지하철:  서대전네거리역 ( 4번출구로 나온 뒤, 20m 도보1분 )<br>
+                    </p>
+                  </li>
+                  <li class="item">
+                    <i class="icon"></i>
+                    <p class="txt">버스를 이용하실 경우</p>
+                    <p class="txt-desc">
+                      1) 서대전네거리역 하차 (세이백화점 근처) : 119 , 201 , 202 , 311 , 314 , 612 , 613 , 701, 2002, 513 , 618, 33, 급행1번, 2002<br>
+                      2) 서대전네거리역 하차 (새손병원 근처) : 101, 103, 315, 614, 618<br>
+                      3) 용두동주민센터 or 서대전초등학교 하차 : 603<br>
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- 푸터 -->
+    <footer class="footer">
+      <div class="inner">
+        <div class="logo"></div>
+        <div class="footer-contents">
+          <ul class="info-list">
+            <li class="info-item">
+              <a href="" class="info-text">개인정보취급방침</a>
+            </li>
+            <li class="info-item">
+              <a href="" class="info-text">이용약관</a>
+            </li>
+            <li class="info-item">
+              <a href="" class="info-text">이메일무단수집거부</a>
+            </li>
+            <li class="info-item">
+              <a href="" class="info-text">사업제휴</a>
+            </li>
+            <li class="info-item">
+              <a href="" class="info-text">고객의소리</a>
+            </li>
+            <li class="info-item">
+              <a href="" class="info-text">비급여 진료내역</a>
+            </li>
+          </ul>
+          <ul class="compy-list">
+            <li class="compy-item">상호 : <span class="point">함소아한의원 서대전점</span></li>
+            <li class="compy-item">대표 : 김한빛 </li>
+            <li class="compy-item">주소 : 대전 중구 계룡로 876 (오류동) 메종드메디컬빌딩 3층</li>
+            <li class="compy-item">전화 : 042-538-1075</li>
+            <li class="compy-item">메일 : blueleaf@hamsoa.com</li>
+            <li class="compy-item">사업자번호 : 238-12-00699</li>
+          </ul>
+          <address class="address">COPYRIGHT © HAMSOA. All Rights Reserved.</address>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + (index + 1) + "</span>";
+        },
+      },
+    });
+
+    var swiper = new Swiper(".daejeon-mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      effect: "fade",
+      loop: true,
+    });
+  </script>
+</body>
+
+</html>

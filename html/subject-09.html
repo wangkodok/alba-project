@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- css -->
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/font.css">
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/style.css">
+
+  <!-- jq -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.0-rc.2/jquery-ui.min.js"></script>
+  <script src="../js/ui-jquery.js"></script>
+  
+  <title>진료과목 : 수면장애 | 함소아한의원 대전점</title>
+</head>
+
+<body>
+  <div class="wrap">
+    <header class="header sub-header">
+      <div class="inner">
+        <div class="contents">
+          <h1 class="logo">
+            <a href="../html/main.html" class="link">
+              <img src="../image/logo.png" class="img" alt="">
+            </a>
+          </h1>
+          <nav class="gnb">
+            <ul class="list">
+              <li class="item">
+                <a href="../html/hsa-Intro.html" class="link">한의원소개</a>
+              </li>
+              <li class="item">
+                <a href="../html/doctor-intro.html" class="link">의료진 소개</a>
+              </li>
+              <li class="item">
+                <a href="" class="link">진료과목</a>
+                <ul class="lnb-list">
+                  <li class="lnb-item">
+                    <a href="../html/subject-01.html" class="lnb-link">호흡기</a>
+                    <ul class="lnb03-list">
+                      <li class="lnb03-item"><a href="">축농증</a></li>
+                      <li class="lnb03-item"><a href="">천식</a></li>
+                      <li class="lnb03-item"><a href="">중이염</a></li>
+                      <li class="lnb03-item"><a href="">잦은감기</a></li>
+                    </ul>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/subject-02.html" class="lnb-link">소화기</a>
+                    <ul class="lnb03-list">
+                      <li class="lnb03-item"><a href="">변비</a></li>
+                      <li class="lnb03-item"><a href="">장염/설사</a></li>
+                      <li class="lnb03-item"><a href="">식욕부진</a></li>
+                    </ul>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/subject-03.html" class="lnb-link">피부</a>
+                    <ul class="lnb03-list">
+                      <li class="lnb03-item"><a href="">아토피</a></li>
+                    </ul>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/subject-04.html" class="lnb-link">수면</a>
+                    <ul class="lnb03-list">
+                      <li class="lnb03-item"><a href="">수면장애/야제</a></li>
+                    </ul>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/subject-05.html" class="lnb-link">성장</a>
+                    <ul class="lnb03-list">
+                      <li class="lnb03-item"><a href="">첫돌보약</a></li>
+                      <li class="lnb03-item"><a href="">성장</a></li>
+                      <li class="lnb03-item"><a href="">소아비만</a></li>
+                      <li class="lnb03-item"><a href="">성조숙</a></li>
+                    </ul>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/subject-06.html" class="lnb-link">심리</a>
+                    <ul class="lnb03-list">
+                      <li class="lnb03-item"><a href="">틱</a></li>
+                      <li class="lnb03-item"><a href="">야뇨/빈뇨</a></li>
+                    </ul>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/subject-07.html" class="lnb-link">교통사고</a>
+                    <ul class="lnb03-list">
+                      <li class="lnb03-item"><a href="">어린이 교통사고 후유증</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <!-- <div class="lnb-box">
+                  <div class="arr-box">
+                    <div class="lnb-arr"></div>
+                  </div>
+                  <ul class="lnb-list">
+                    <li class="lnb-item">
+                      <a href="../html/subject-01.html" class="lnb-link">축농증</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-02.html" class="lnb-link">저성장</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-03.html" class="lnb-link">아토피</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-04.html" class="lnb-link">소아비만</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-05.html" class="lnb-link">저체중</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-06.html" class="lnb-link">폐렴</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-07.html" class="lnb-link">기관지염</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-08.html" class="lnb-link">식욕부진</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-09.html" class="lnb-link">수면장애</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-10.html" class="lnb-link">틱장애</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-11.html" class="lnb-link">변비</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-12.html" class="lnb-link">비염</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-13.html" class="lnb-link">천식</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-14.html" class="lnb-link">중이염</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-15.html" class="lnb-link">편도염</a>
+                    </li>
+                    <li class="lnb-item">
+                      <a href="../html/subject-16.html" class="lnb-link">잦은감기</a>
+                    </li>
+                  </ul>
+                </div> -->
+              </li>
+              <li class="item">
+                <a href="../html/hmu-clinic.html" class="link">한마음 클리닉</a>
+              </li>
+              <li class="item">
+                <a href="../html/treatment-case.html" class="link">치료사례</a>
+              </li>
+              <li class="item">
+                <a href="../html/health-qa.html" class="link">건강정보</a>
+              </li>
+              <li class="item">
+                <a href="../html/method.html" class="link">Q&A치료 방법</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="user">
+            <ul class="list">
+              <li class="item">
+                <a href="" class="link">
+                  <i class="login"></i>
+                  <span class="text">로그인</span>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="link">
+                  <i class="join"></i>
+                  <span class="text">회원가입</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- 햄버거 메뉴 -->
+          <button class="menu-btn">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </button>
+          <!-- 햄버거 메뉴 콘텐츠 -->
+          <div class="hbg">
+            <div class="hbg-menu">
+              <button class="sect01">
+                <div class="line-box">
+                  <span class="line-01"></span>
+                  <span class="line-02"></span>
+                </div>
+              </button>
+              <ul class="list">
+                <li class="item">
+                  <a href="../html/hsa-Intro.html" class="link">한의원소개</a>
+                </li>
+                <li class="item">
+                  <a href="../html/doctor-intro.html" class="link">의료진 소개</a>
+                </li>
+                <li class="item">
+                  <a href="#" class="link">진료과목</a>
+                  <ul class="depth2-list">
+                    <li class="depth2-item"><a href="../html/subject-01.html">- 축농증</a></li>
+                    <li class="depth2-item"><a href="../html/subject-02.html">- 저성장</a></li>
+                    <li class="depth2-item"><a href="../html/subject-03.html">- 아토피</a></li>
+                    <li class="depth2-item"><a href="../html/subject-04.html">- 소아비만</a></li>
+                    <li class="depth2-item"><a href="../html/subject-05.html">- 저체중</a></li>
+                    <li class="depth2-item"><a href="../html/subject-06.html">- 폐렴</a></li>
+                    <li class="depth2-item"><a href="../html/subject-07.html">- 기관지염</a></li>
+                    <li class="depth2-item"><a href="../html/subject-08.html">- 식욕부진</a></li>
+                    <li class="depth2-item"><a href="../html/subject-09.html">- 수면장애</a></li>
+                    <li class="depth2-item"><a href="../html/subject-10.html">- 틱장애</a></li>
+                    <li class="depth2-item"><a href="../html/subject-11.html">- 변비</a></li>
+                    <li class="depth2-item"><a href="../html/subject-12.html">- 비염</a></li>
+                    <li class="depth2-item"><a href="../html/subject-13.html">- 천식</a></li>
+                    <li class="depth2-item"><a href="../html/subject-14.html">- 중이염</a></li>
+                    <li class="depth2-item"><a href="../html/subject-15.html">- 편도염</a></li>
+                    <li class="depth2-item"><a href="../html/subject-16.html">- 잦은 감기</a></li>
+                  </ul>
+                </li>
+                <li class="item">
+                  <a href="../html/hmu-clinic.html" class="link">한마음 클리닉</a>
+                </li>
+                <li class="item">
+                  <a href="../html/treatment-case.html" class="link">치료사례</a>
+                </li>
+                <li class="item">
+                  <a href="../html/health-qa.html" class="link">건강정보</a>
+                </li>
+                <li class="item">
+                  <a href="../html/method.html" class="link">Q&A치료 방법</a>
+                </li>
+              </ul>
+              <ul class="hbg-util">
+                <li><a href="" class="login">로그인</a></li>
+                <li><a href="" class="join">회원가입</a></li>
+              </ul>
+            </div>
+            <div class="bg"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="sub sub-subject-01">
+      <section class="sub-visual">
+        <div class="inner">
+          <div class="sub-visual-contents">
+            <div class="text-box">
+              <h3 class="title">함박 웃는 아이, 함소아</h3>
+              <p class="desc">
+                함소아한의원 대전점은 <br>
+                아이가 조금이라도 편안하게 치료를 받을 수 있고 <br>
+                아픈 아이를 돌보느라 지치고 힘든 부모님에게 <br>
+                든든한 힘이 되고자 아주 작은 것부터 세심하게 배려합니다. <br>
+              </p>
+            </div>
+            <div class="bg"></div>
+            <div class="phto-box">
+              <img src="../image/sub-visual.png" class="phto" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 서브페이지 탭 메뉴 -->
+      <div class="tab">
+        <div class="inner">
+          <div class="contents">
+            <a href="../html/main.html" class="home-icon"></a>
+            <ul class="list">
+              <li class="item">
+                <a href="#" class="link">치료 과목</a>
+                <ul class="lnb-list">
+                  <li class="lnb-item">
+                    <a href="../html/hsa-Intro.html" class="lnb-link">한의원소개</a>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/doctor-intro.html" class="lnb-link">의료진 소개</a>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/subject-01.html" class="lnb-link">진료과목</a>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/hmu-clinic.html" class="lnb-link">한마음 클리닉</a>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/treatment-case.html" class="lnb-link">치료사례</a>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/health-qa.html" class="lnb-link">건강정보</a>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/method.html" class="lnb-link">Q&A치료 방법</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="item">
+                <a href="" class="link">수면장애</a>
+                <ul class="lnb-list">
+                  <li class="lnb-item">
+                    <a href="../html/subject-01.html" class="lnb-link">축농증</a>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/subject-02.html" class="lnb-link">저성장</a>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/subject-03.html" class="lnb-link">아토피</a>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/subject-04.html" class="lnb-link">소아비만</a>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/subject-05.html" class="lnb-link">저체중</a>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/subject-06.html" class="lnb-link">폐렴</a>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/subject-07.html" class="lnb-link">기관지염</a>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/subject-08.html" class="lnb-link">식욕부진</a>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/subject-09.html" class="lnb-link">수면장애</a>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/subject-10.html" class="lnb-link">틱장애</a>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/subject-11.html" class="lnb-link">변비</a>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/subject-12.html" class="lnb-link">비염</a>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/subject-13.html" class="lnb-link">천식</a>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/subject-14.html" class="lnb-link">중이염</a>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/subject-15.html" class="lnb-link">편도염</a>
+                  </li>
+                  <li class="lnb-item">
+                    <a href="../html/subject-16.html" class="lnb-link">잦은감기</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- 수면장애 콘텐츠 -->
+      <section class="subject-01">
+        <div class="inner">
+          <div class="sub-contents">
+            <div class="sub-text-box">
+              <div class="sub-title-motion">
+                <h3 class="sub-title">수면장애</h3>
+              </div>
+              <div class="sub-desc-motion">
+                <p class="sub-desc">아이가 잠을 잘 자야 키와 두뇌가 쑥쑥 잘 자랍니다</p>
+              </div>
+            </div>
+            <!-- 진료과목 -->
+            <div class="subject-phto-intro">
+              <img src="../image/subject-09.jpg" class="phto" alt="">
+              <div class="subject-box">
+                <p class="title">수면장애 방치하면~</p>
+                <ul class="list">
+                  
+
+                  <li class="item">① 성장 저하</li>
+                  <li class="item">② 피로감</li>
+                  <li class="item">③ 예민함, 짜증</li>
+                  <li class="item">④ 부모와 애착관계 문제</li>
+                  <li class="item">⑤ 수면에 대한 공포</li>
+                  <li class="item">⑥ 우울감 및 과잉행동</li>
+
+                </ul>
+              </div>
+            </div>
+            <div class="subject-desc-text">
+              <span class="sub-small-title">수면장애의 원인</span>
+              <p>① 소화기 알레르기   ② 체질 기질   ③ 잘못된 양육습관   ④ 심리적 문제   ⑤ 신경계 미숙   ⑥ 비염 </p>
+            </div>
+            <div class="subject-desc-list">
+              <span class="sub-small-title">함소아한의원 대전점 잦은 감기 치료 프로그램</span>
+              <ul class="list">
+                <li class="item">
+                  <p class="text">
+                    개인에 맞는 호흡기 면역력 보강
+                  </p>
+                </li>
+                <li class="item">
+                  <p class="text">
+                    대전지역 함소아 중 가장 오랜 경력의 원장님의 치료와 관리
+                  </p>
+                </li>
+                <li class="item">
+                  <p class="text">
+                    휴일과 저녁시간 원장님의 365콜 관리 (1과 원장님 한함)
+                  </p>
+                </li>
+                <li class="item">
+                  <p class="text">
+                    기본적인 한의학적 치료와 함께 테라피 치료 병행
+                  </p>
+                </li>
+                <li class="item">
+                  <p class="text">
+                    부적절한 약물 사용 줄여나가고 약물의 내성문제 해결 도움
+                  </p>
+                </li>
+                <li class="item">
+                  <p class="text">
+                    ENT 영상시스템, 청진기와 복진, 맥상, 체질 등을 종합 진단
+                  </p>
+                </li>
+                <li class="item">
+                  <p class="text">
+                    논문으로 검증된 치료와 관리법 적용해 효과 높이는 노력
+                  </p>
+                </li>
+                <li class="item">
+                  <p class="text">
+                    치료 목표 설정 및 결과를 확인할 수 있는 진료 추구
+                  </p>
+                </li>
+                <li class="item">
+                  <p class="text">
+                    2013년 이후 대학병원 등 의학, 한의학 협력 통한 치료 추구
+                  </p>
+                </li>
+
+              </ul>
+
+            </div>
+
+            <!-- 게시판 영역 -->
+
+
+
+
+          </div>
+        </div>
+      </section>
+      <!-- 치료 사례 -->
+      <section class="case">
+        <div class="bg">
+          <div class="case-contents">
+            <div class="text-box">
+              <h3 class="title">33,000여명의 환자분들이 자필로 남겨주신 찐 후기!</h3>
+              <a href="" class="more">치료 사례 전체보기</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 상담 및 진료예약 -->
+      <section class="diagnosis">
+        <div class="diagnosis-contents">
+          <ul class="list">
+            <li class="item">
+              <a href="">
+                <img src="../image/diagnosis-bg01.jpg" class="phto" alt="">
+                <div class="text-box text-box01">
+                  <p class="desc">상담전화 <br>042 - 477 - 1675</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="">
+                <img src="../image/diagnosis-bg02.jpg" class="phto" alt="">
+                <div class="text-box text-box02">
+                  <p class="desc">온라인 진료 <br>예약 바로가기</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- 퀵 메뉴 -->
+      <section class="quick">
+        <ul>
+          <li>
+            <a href='tel:042-477-1675'>
+              <i class="phone"></i>  
+              <span>상담문의</span>  
+              <div class="phone-num">042-477-1675</div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="talk"></i>
+              <span>상담문의</span>  
+              <div>카카오 아이디검색에서<br><span>함소아한의원 대전점</span>을<br>검색하세요.</div>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!-- 푸터 -->
+    <footer class="footer">
+      <div class="inner">
+        <div class="logo"></div>
+        <div class="footer-contents">
+          <ul class="info-list">
+            <li class="info-item">
+              <a href="" class="info-text">개인정보취급방침</a>
+            </li>
+            <li class="info-item">
+              <a href="" class="info-text">이용약관</a>
+            </li>
+            <li class="info-item">
+              <a href="" class="info-text">이메일무단수집거부</a>
+            </li>
+            <li class="info-item">
+              <a href="" class="info-text">사업제휴</a>
+            </li>
+            <li class="info-item">
+              <a href="" class="info-text">고객의소리</a>
+            </li>
+            <li class="info-item">
+              <a href="" class="info-text">비급여 진료내역</a>
+            </li>
+          </ul>
+          <ul class="compy-list">
+            <li class="compy-item">상호 : <span class="point">함소아한의원 서대전점</span></li>
+            <li class="compy-item">대표 : 김한빛 </li>
+            <li class="compy-item">주소 : 대전 중구 계룡로 876 (오류동) 메종드메디컬빌딩 3층</li>
+            <li class="compy-item">전화 : 042-538-1075</li>
+            <li class="compy-item">메일 : blueleaf@hamsoa.com</li>
+            <li class="compy-item">사업자번호 : 238-12-00699</li>
+          </ul>
+          <address class="address">COPYRIGHT © HAMSOA. All Rights Reserved.</address>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
