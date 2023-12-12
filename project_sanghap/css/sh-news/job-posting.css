@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+.sub-sh_news .bg-photo {
+  background-image: url('../../image/sub_visual_shnews.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px
+}
+
+.job-posting .sub-contents .job-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.job-posting .sub-contents .job-list > li {
+  width: 50%;
+  padding: 40px;
+  border: 1px solid #d1d1d1;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+.job-posting .sub-contents .job-list .txt {
+  position: relative;
+  display: inline-block;
+  margin: 0 0 20px 0;
+  font-size: 26px;
+  font-family: 'Noto Serif KR', serif;
+  font-weight: 400;
+}
+.job-posting .sub-contents .job-list .txt::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  height: 8px;
+  background-color: #fdb9aa;
+}
+.job-posting .sub-contents .job-list .rd-item dl {
+  margin: 0 0 6px 0;
+}
+.job-posting .sub-contents .job-list .rd-item dt {
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 0 12px 0 0;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #0a1032;
+}
+.job-posting .sub-contents .job-list .rd-item dd {
+  display: inline-block;
+}
+.job-posting .sub-contents .job-list .support-item dl {
+  margin: 0 0 10px 0;
+}
+.job-posting .sub-contents .job-list .support-item dt {
+  display: inline-block;
+  padding: 20px;
+  margin: 0 12px 0 0;
+  border-radius: 50%;
+  color: #0a1032;
+  background-color: #d9d9d9;
+}
+.job-posting .sub-contents .job-list .support-item dd {
+  display: inline-block;
+  vertical-align: middle;
+}
+.job-posting .sub-contents .job-list .apr-item ul > li {
+  position: relative;
+  padding: 0 0 0 20px;
+}
+.job-posting .sub-contents .job-list .apr-item ul > li::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #0a1032;
+}
+.job-posting .sub-contents .job-question {
+  margin: 0 0 48px 0;
+  text-align: right;
+}
+.job-posting .sub-contents .job-question p {
+  position: relative;
+  display: inline-block;
+  padding: 0 0 0 30px;
+  margin: 14px 0 0 0;
+}
+.job-posting .sub-contents .job-question p::after {
+  content: '';
+  background-image: url('../../image/job_question.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* 반응형 웹 - 공통 */
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  .job-posting .sub-contents .job-list {display: block; flex-wrap: initial;}
+  .job-posting .sub-contents .job-list > li {width: 100%; padding: 32px; font-size: 16px;}
+  .job-posting .sub-contents .job-list .txt {font-size: 20px;}
+  .job-posting .sub-contents .job-list .rd-item dl {margin: 0 0 6px 0;}
+  .job-posting .sub-contents .job-list .rd-item dt {display: inline-block; padding: 6px 12px; margin: 0 12px 0 0; border-radius: 8px; color: #fff; background-color: #0a1032;}
+  .job-posting .sub-contents .job-list .rd-item dd {display: inline-block;}
+  .job-posting .sub-contents .job-list .support-item dl {margin: 0 0 10px 0;}
+  .job-posting .sub-contents .job-list .support-item dt {display: inline-block; padding: 20px; margin: 0 12px 0 0; border-radius: 50%; color: #0a1032; background-color: #d9d9d9;}
+  .job-posting .sub-contents .job-list .support-item dd {display: inline-block; vertical-align: middle;}
+  .job-posting .sub-contents .job-list .apr-item ul > li {position: relative; padding: 0 0 0 20px;}
+  .job-posting .sub-contents .job-list .apr-item ul > li::after {content: ''; position: absolute; top: 10px; left: 0; width: 6px; height: 6px; border-radius: 3px; background-color: #0a1032;}
+  .job-posting .sub-contents .job-question {text-align: left;}
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .job-posting .sub-contents .job-list {display: block; flex-wrap: initial;}
+  .job-posting .sub-contents .job-list > li {width: 100%; padding: 32px; font-size: 16px;}
+  .job-posting .sub-contents .job-list .txt {font-size: 20px;}
+  .job-posting .sub-contents .job-list .rd-item dl {margin: 0 0 6px 0;}
+  .job-posting .sub-contents .job-list .rd-item dt {display: inline-block; padding: 6px 12px; margin: 0 12px 0 0; border-radius: 8px; color: #fff; background-color: #0a1032;}
+  .job-posting .sub-contents .job-list .rd-item dd {display: inline-block;}
+  .job-posting .sub-contents .job-list .support-item dl {margin: 0 0 10px 0;}
+  .job-posting .sub-contents .job-list .support-item dt {display: inline-block; padding: 20px; margin: 0 12px 0 0; border-radius: 50%; color: #0a1032; background-color: #d9d9d9;}
+  .job-posting .sub-contents .job-list .support-item dd {display: inline-block; vertical-align: middle;}
+  .job-posting .sub-contents .job-list .apr-item ul > li {position: relative; padding: 0 0 0 20px;}
+  .job-posting .sub-contents .job-list .apr-item ul > li::after {content: ''; position: absolute; top: 10px; left: 0; width: 6px; height: 6px; border-radius: 3px; background-color: #0a1032;}
+  .job-posting .sub-contents .job-question {text-align: left;}
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .job-posting .sub-contents .job-list {display: block; flex-wrap: initial;}
+  .job-posting .sub-contents .job-list > li {width: 100%; padding: 32px; font-size: 16px;}
+  .job-posting .sub-contents .job-list .txt {font-size: 20px;}
+  .job-posting .sub-contents .job-list .rd-item dl {margin: 0 0 6px 0;}
+  .job-posting .sub-contents .job-list .rd-item dt {display: inline-block; padding: 6px 12px; margin: 0 12px 0 0; border-radius: 8px; color: #fff; background-color: #0a1032;}
+  .job-posting .sub-contents .job-list .rd-item dd {display: block;}
+  .job-posting .sub-contents .job-list .support-item dl {margin: 0 0 10px 0;}
+  .job-posting .sub-contents .job-list .support-item dt {display: inline-block; padding: 20px; margin: 0 12px 0 0; border-radius: 50%; color: #0a1032; background-color: #d9d9d9;}
+  .job-posting .sub-contents .job-list .support-item dd {display: block;}
+  .job-posting .sub-contents .job-list .method-item .job-order img {width: 100%;}
+  .job-posting .sub-contents .job-list .apr-item ul > li {position: relative; padding: 0 0 0 20px;}
+  .job-posting .sub-contents .job-list .apr-item ul > li::after {content: ''; position: absolute; top: 10px; left: 0; width: 6px; height: 6px; border-radius: 3px; background-color: #0a1032;}
+  .job-posting .sub-contents .job-question {text-align: left;}
+}

@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+.sub-sh_news .bg-photo {
+  background-image: url('../../image/sub_visual_shnews.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px
+}
+
+.social .photo-grid .thumbnail-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.social .photo-grid .thumbnail-item li {
+  width: calc(33.33% - 30px);
+  padding: 10px;
+  margin: 5px;
+}
+.social .photo-grid .thumbnail-item a:hover {
+  text-decoration: underline;
+}
+.social .photo-grid .photo {
+  position: relative;
+  overflow: hidden;
+}
+.social .photo-grid .photo img {
+  width: 100%;
+}
+.social .photo-grid .photo .more {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  transform: translateY(100%);
+  transition: all 0.5s ease;
+  background-color: rgba(10, 16, 50, 0.7);
+}
+.social .photo-grid li:hover .photo .more {
+  background-color: rgba(10, 16, 50, 0.7);
+  transform: translateY(0%);
+}
+.social .photo-grid .photo .more span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s ease;
+  padding: 17px 47px;
+  color: #fff;
+  border: 1px solid #fff;
+}
+.social .photo-grid .photo .more span:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.social .photo-grid .txt-box {
+  margin: 20px 0 0 0;
+}
+.social .photo-grid .txt-box span {
+  display: block;
+  margin: 0 0 24px 0;
+}
+.social .photo-grid .txt-box p {
+  font-size: 20px;
+  overflow: hidden;
+  margin: 0 0 40px 0;
+  white-space: normal;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.social .photo-grid .txt-box time {
+  display: block;
+}
+
+
+
+
+
+
+/* 반응형 웹 - 사회공헌 */
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .social .photo-grid .thumbnail-item li {
+    width: calc(50% - 30px);
+    padding: 10px;
+    margin: 5px;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .social .photo-grid .thumbnail-item li {
+    width: calc(50% - 30px);
+    padding: 10px;
+    margin: 5px;
+  }
+  .social .photo-grid .photo .more {
+    display: none;
+  }
+  .social .photo-grid .txt-box span {
+    margin: 0 0 10px 0;
+  }
+  .social .photo-grid .txt-box p {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+  }
+  .social .photo-grid .txt-box time {
+    color: #919191;
+  }
+}

@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+.sub-business .bg-photo {
+  background-image: url('../../image/sub_visual_business.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.portsofablock-page .photo-bg {
+  background-image: url('../../image/portsofablock_intro.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  display: inline-block;
+  width: 100%;
+  height: 212px;
+  position: relative;
+}

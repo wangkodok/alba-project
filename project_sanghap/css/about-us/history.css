@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+.sub-about_us .bg-photo {
+  background-image: url('../../image/sub_visual_aboutus.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px
+}
+
+.history .sub-contents .item {
+  display: flex;
+  margin: 0 0 120px 0;
+}
+.history .desc-list li {
+  margin: 0 0 20px 0;
+}
+.history .desc-list dt {
+  display: inline-block;
+  vertical-align: top;
+}
+.history .desc-list dt em {
+  display: inline-block;
+  width: 160px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #363636;
+}
+.history .desc-list dd {
+  display: inline-block;
+  vertical-align: top;
+  padding: 8px 0 0 20px;
+}
+.history .desc-list dd p {
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+/* 반응형 웹 - 연혁 */
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  .history .sub-contents .item {display: initial;}
+  .history .photo {display: none;}
+  .history .desc-list dt {display: block;}
+  .history .desc-list dt em {font-size: 16px;}
+  .history .desc-list dd {display: block;}
+  .history .desc-list dd {padding: 8px 0 0 10px;}
+  .history .desc-list dd p {font-size: 16px;}
+  .history .desc-list dd p br {display: none;}
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .history .sub-contents .item {display: initial;}
+  .history .photo {display: none;}
+  .history .desc-list dt {display: block;}
+  .history .desc-list dt em {font-size: 16px;}
+  .history .desc-list dd {display: block;}
+  .history .desc-list dd {padding: 8px 0 0 10px;}
+  .history .desc-list dd p {font-size: 16px;}
+  .history .desc-list dd p br {display: none;}
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .history .sub-contents .item {display: initial;}
+  .history .photo {display: none;}
+  .history .desc-list dt {display: block;}
+  .history .desc-list dt em {font-size: 16px;}
+  .history .desc-list dd {display: block;}
+  .history .desc-list dd {padding: 8px 0 0 10px;}
+  .history .desc-list dd p {font-size: 16px;}
+  .history .desc-list dd p br {display: none;}
+}

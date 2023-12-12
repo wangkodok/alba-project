@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+.sub-management .bg-photo {
+  background-image: url('../../image/sub_visual_management.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px
+}
+
+.ethics-manage .contents-area li {
+  margin: 0 0 40px 0;
+}
+.ethics-manage .contents-area .desc-box {
+  background-image: url('../../image/contents_circle.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right -48px;
+  padding: 26px;
+}
+.ethics-manage .pc-photo {
+  text-align: center;
+}
+.ethics-manage .m-photo {
+  display: none;
+}
+.ethics-manage .m-photo-list {
+  display: none;
+}
+.ethics-manage .values-photo {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 반응형 웹 - 공통 */
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  .ethics-manage .pc-photo {
+    display: none;
+  }
+  .ethics-manage .m-photo {
+    display: block;
+    text-align: center;
+  }
+  .ethics-manage .m-photo-list {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .ethics-manage .pc-photo {
+    display: none;
+  }
+  .ethics-manage .m-photo {
+    display: block;
+    text-align: center;
+  }
+  .ethics-manage .m-photo-list {
+    display: block;
+    text-align: center;
+  }
+  .ethics-manage .values-photo img {
+    width: 100%;
+    padding: 0 140px;
+    box-sizing: border-box;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .ethics-manage .pc-photo {
+    display: none;
+  }
+  .ethics-manage .m-photo {
+    display: block;
+    text-align: center;
+  }
+  .ethics-manage .m-photo-list {
+    display: block;
+    text-align: center;
+  }
+  .ethics-manage .m-photo img {
+    width: 100%;
+    padding: 0 32px;
+    box-sizing: border-box;
+  }
+  .ethics-manage .values-photo img {
+    width: 100%;
+    padding: 0 40;
+    box-sizing: border-box;
+  }
+}

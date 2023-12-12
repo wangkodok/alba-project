@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+.sub-management .bg-photo {
+  background-image: url('../../image/sub_visual_management.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px
+}
+
+.clean-report .contents-area li {
+  padding: 16px 28px;
+  border-top: 1px solid #d1d1d1;
+  border-bottom: 1px solid #d1d1d1;
+}
+.clean-report .contents-area .txt {
+  float: left;
+  width: 170px;
+  height: 40px;
+  line-height: 40px;
+}
+.clean-report .contents-area .txt span {
+  text-align: center;
+}
+.clean-report .contents-area strong {
+  font-weight: 400;
+  color: #cd001f;
+  margin: 0 0 0 20px;
+}
+.clean-report .contents-area input {
+  width: 1000px;
+  height: 40px;
+  padding: 6px 12px;
+  border: none;
+  background-color: #f1f1f1;
+  box-sizing: border-box;
+}
+.clean-report .contents-area input.box {
+  width: 300px;
+}
+.clean-report .contents-area textarea {
+  width: 1000px;
+  height: 340px;
+  padding: 6px 12px;
+  border: none;
+  background-color: #f1f1f1;
+  box-sizing: border-box;
+}
+.clean-report .contents-area label.file {
+  display: inline-block;
+  min-width: 53px;
+  height: 27px;
+  line-height: 24px;
+  padding: 0 10px;
+  border-radius: 2px;
+  font-size: 13px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+.clean-report .contents-area label.file-label {
+  display: inline-block;
+  min-width: 53px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 28px;
+  background-color: #4d4d4d;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+.clean-report .contents-area input.file-upload[type="file"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0 none;
+}
+.clean-report .contents-area .btn {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+.clean-report .contents-area .btn button {
+  width: 160px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  margin: 0 20px 0 0;
+}
+.clean-report .contents-area .btn button:last-child {
+  margin: 0;
+}
+
+.clean-report .contents-area .btn .click {
+  background-color: #4d4d4d;
+  border: 1px solid #4d4d4d;
+  color: #fff;
+}
+
+.clean-report .contents-area .btn .cancel {
+  border: 1px solid #d1d1d1;
+  color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 반응형 웹 - 공통 */
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  .clean-report .contents-area .txt {
+    float: none;
+  }
+  .clean-report .contents-area input,
+  .clean-report .contents-area textarea {
+    width: 100%;
+  }
+  .clean-report .contents-area .file {
+    display: inline-block;
+    width: auto;
+    margin: 0 20px 0 0;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .clean-report .contents-area .txt {
+    float: none;
+  }
+  .clean-report .contents-area input,
+  .clean-report .contents-area textarea {
+    width: 100%;
+  }
+  .clean-report .contents-area textarea {
+    height: 200px;
+  }
+  .clean-report .contents-area strong {
+    display: block;
+    margin: 10px 0 0 0;
+  }
+  .clean-report .contents-area .file {
+    display: inline-block;
+    width: auto;
+    margin: 0 20px 0 0;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .clean-report .contents-area li {
+    padding: 20px 8px;
+  }
+  .clean-report .contents-area .txt {
+    float: none;
+  }
+  .clean-report .contents-area input,
+  .clean-report .contents-area textarea {
+    width: 100%;
+  }
+  .clean-report .contents-area textarea {
+    height: 140px;
+  }
+  .clean-report .contents-area input.box {
+    width: 100%;
+  }
+  .clean-report .contents-area strong {
+    display: block;
+    margin: 10px 0 0 0;
+  }
+  .clean-report .contents-area .file {
+    display: inline-block;
+    width: auto;
+    margin: 0 20px 0 0;
+  }
+}

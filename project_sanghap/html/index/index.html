@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="title" content="상합이엔씨">
+  <meta name="keywords" content="상합이엔씨, 상합이엔씨 회사소개, 상합이엔씨 채용, 상합이엔씨 뉴스, 상합이엔씨 정보광장">
+  <meta name="description" content="상합이엔씨의 오신 걸 환영합니다.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="상합이엔씨">
+
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+  <!-- css -->
+  <link rel="icon" type="image/png" href="../../image/f_logo.ico">
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="../../css/common.css">
+  <link rel="stylesheet" href="../../css/swiper.css">
+  <link rel="stylesheet" href="../../css/index/index.css">
+
+  <!-- 제이쿼리 및 플러그인 -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.0-rc.2/jquery-ui.min.js"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+  <!-- js -->
+  <script src="../../js/common.js"></script>
+  <script src="../../js/main.js"></script>
+
+  <title>상합이엔씨</title>
+</head>
+
+<body>
+  <!-- <div id="skip-navigation">
+    <a href="#"><span> 바로가기</span></a>
+    <a href="#"><span> 바로가기</span></a>
+    <a href="#"><span> 바로가기</span></a>
+    <a href="#"><span> 바로가기</span></a>
+    <a href="#"><span> 바로가기</span></a>
+  </div> -->
+
+
+  <!-- 헤더 -->
+  <div class="wrap">
+    <header class="header">
+      <div class="inner">
+        <div class="contents">
+          <h1 class="logo">
+            <a href="../../html/index/index.html">
+              <img src="../../image/logo.png" alt="로고">
+            </a>
+          </h1>
+          <div class="gnb">
+            <ul class="gnb-list">
+              <li>
+                <a href="../../html/about-us/ceo.html">회사소개</a>
+                <ul class="lnb-list">
+                  <li><a href="../../html/about-us/ceo.html">CEO인사말</a></li>
+                  <li><a href="../../html/about-us/ideology.html">경영이념</a></li>
+                  <li><a href="../../html/about-us/history.html">연혁</a></li>
+                  <li><a href="../../html/about-us/photo-album.html">면허 및 신용평가등급</a></li>
+                  <li><a href="../../html/about-us/awards-history.html">수상연혁</a></li>
+                  <li><a href="../../html/about-us/department.html">조직도</a></li>
+                  <li><a href="../../html/about-us/road.html">오시는길</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="../../html/business/civil.html">사업영역</a>
+                <ul class="lnb-list">
+                  <li><a href="../../html/business/civil.html">일반토목</a></li>
+                  <li><a href="../../html/business/construct.html">건축</a></li>
+                  <li><a href="../../html/business/portsofablock.html">항만소파블록(특허제품)</a></li>
+                  <li><a href="../../html/business/construction.html">시공현황</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="../../html/sh-news/business-order.html">상합뉴스</a>
+                <ul class="lnb-list">
+                  <li><a href="../../html/sh-news/business-order.html">사업수주소식</a></li>
+                  <li><a href="../../html/sh-news/job-posting.html">채용공고</a></li>
+                  <li><a href="../../html/sh-news/partner.html">시공협력사</a></li>
+                  <li><a href="../../html/sh-news/social.html">사회공헌</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="../../html/bici/sh-bici.html">BI.CI</a>
+                <ul class="lnb-list">
+                  <li><a href="../../html/bici/sh-bici.html">BI/CI</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="../../html/management/ethics-manage.html">윤리경영</a>
+                <ul class="lnb-list">
+                  <li><a href="../../html/management/ethics-manage.html">윤리경영 목표</a></li>
+                  <li><a href="../../html/management/ethics-value.html">윤리강령</a></li>
+                  <li><a href="../../html/management/rule.html">윤리규정</a></li>
+                  <li><a href="../../html/management/clean-report.html">클린신고센터</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="../../html/info-square/news.html">정보광장</a>
+                <ul class="lnb-list">
+                  <li><a href="../../html/info-square/news.html">건설뉴스</a></li>
+                  <li><a href="../../html/info-square/page-dummy.html">업계동향</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="util">
+            <ul class="info">
+              <li><a href="../../html/about-us/road.html">오시는길</a></li>
+              <li><a href="../../html/info-square/news.html">건설뉴스</a></li>
+            </ul>
+            <ul class="sns">
+              <li>
+                <a href="" class="youtube">
+                  <span class="blind">유튜브</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="facebook">
+                  <span class="blind">페이스북</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="blog">
+                  <span class="blind">블로그</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="hb">
+            <button class="menu">
+              <img src="../../image/hb_menu.png" alt="전체 메뉴 열기">
+            </button>
+          </div>
+          <div class="hb-open">
+            <div class="hb-contents">
+              <button class="menu">
+                <img src="../../image/hb_menu_close.png" alt="전체 메뉴 닫기">
+              </button>
+              <div class="hb-menu">
+                <ul class="list">
+                  <li>
+                    <a href="#">회사소개</a>
+                    <ul class="hb-list">
+                      <li><a href="../../html/about-us/ceo.html">CEO인사말</a></li>
+                      <li><a href="../../html/about-us/ideology.html">경영이념</a></li>
+                      <li><a href="../../html/about-us/history.html">연혁</a></li>
+                      <li><a href="../../html/about-us/photo-album.html">면허 및 신용평가등급</a></li>
+                      <li><a href="../../html/about-us/awards-history.html">수상연혁</a></li>
+                      <li><a href="../../html/about-us/department.html">조직도</a></li>
+                      <li><a href="../../html/about-us/road.html">오시는길</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">사업영역</a>
+                    <ul class="hb-list">
+                      <li><a href="../../html/business/civil.html">일반토목</a></li>
+                      <li><a href="../../html/business/construct.html">건축</a></li>
+                      <li><a href="../../html/business/portsofablock.html">항만소파블록(특허제품)</a></li>
+                      <li><a href="../../html/business/construction.html">시공현황</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">상합뉴스</a>
+                    <ul class="hb-list">
+                      <li><a href="../../html/sh-news/business-order.html">사업수주소식</a></li>
+                      <li><a href="../../html/sh-news/job-posting.html">채용공고</a></li>
+                      <li><a href="../../html/sh-news/partner.html">시공협력사</a></li>
+                      <li><a href="../../html/sh-news/social.html">사회공헌</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">BI.CI</a>
+                    <ul class="hb-list">
+                      <li><a href="../../html/bici/sh-bici.html">BI/CI</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">윤리경영</a>
+                    <ul class="hb-list">
+                      <li><a href="../../html/management/ethics-manage.html">윤리경영</a></li>
+                      <li><a href="../../html/management/ethics-value.html">윤리강령</a></li>
+                      <li><a href="../../html/management/rule.html">윤리규정</a></li>
+                      <li><a href="../../html/management/clean-report.html">클린신고센터</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">정보광장</a>
+                    <ul class="hb-list">
+                      <li><a href="../../html/info-square/news.html">건설뉴스</a></li>
+                      <li><a href="../../html/info-square/page-dummy.html">업계동향</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- 콘텐츠 -->
+    <div class="main-container main">
+      <section class="intro">
+        <div class="inner">
+          <div class="visual-wrap">
+            <div class="visual-slider">
+              <div class="contents-wrap">
+                <div class="swiper mySwiper-visual">
+                  <ul class="swiper-wrapper list">
+                    <li class="swiper-slide item">
+                      <a href="" class="link">
+                        <div class="visual-photo">
+                          <img src="../../image/main_visual.jpg" alt="">
+                        </div>
+                      </a>
+                    </li>
+                    <li class="swiper-slide item">
+                      <a href="" class="link">
+                        <div class="visual-photo">
+                          <img src="../../image/main_visual.jpg" alt="">
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="swiper-pagination circle"></div>
+                  <div class="btn-wrap">
+                    <button class="swiper-button-prev btn"></button>
+                    <button class="swiper-button-next btn"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="download">
+              <div class="download-wrap">
+                <div class="contents">
+                  <div class="swiper mySwiper-download">
+                    <ul class="swiper-wrapper list">
+                      <li class="swiper-slide item">
+                        <div class="slide-wrap">
+                          <span class="tit">지명원 <br>다운로드</span>
+                          <i class="icon"></i>
+                          <ul class="download-list">
+                            <li>
+                              <a href="">
+                                <img src="../../image/all_down_btn.png" alt="전체 다운로드">
+                              </a>
+                            </li>
+                            <li>
+                              <a href="">
+                                <img src="../../image/down_btn.png" alt="간략본 다운로드">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="swiper-slide item">
+                        <div class="slide-wrap">
+                          <span class="tit">지명원 <br>다운로드</span>
+                          <i class="icon"></i>
+                          <ul class="download-list">
+                            <li>
+                              <a href="">
+                                <img src="../../image/all_down_btn.png" alt="전체 다운로드">
+                              </a>
+                            </li>
+                            <li>
+                              <a href="">
+                                <img src="../../image/down_btn.png" alt="간략본 다운로드">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="intro-next">
+        <div class="inner">
+          <div class="contents-wrap">
+            <div class="company-info">
+              <div class="photo">
+                <img src="../../image/main_visual_info_photo.jpg" alt="">
+              </div>
+              <p class="desc"><em>상합이엔씨</em><span>소개</span></p>
+            </div>
+            <div class="business">
+              <div class="contents-wrap">
+                <ul class="list item">
+                  <li>
+                    <a href="../../html/business/civil.html">
+                      <i class="icon02"></i>
+                      <strong>토목</strong>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="../../html/business/construct.html">
+                      <i class="icon03"></i>
+                      <strong>건축</strong>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="../../html/business/portsofablock.html">
+                      <i class="icon04"></i>
+                      <strong>항만소파블록</strong>
+                    </a>
+                  </li>
+                </ul>
+                <p class="desc">다양한 분야에서 다수의 도로, 철도, 항만, 단지, 주택 등의 건설을 수행하였습니다.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="industry-trends">
+        <div class="inner">
+          <div class="contents">
+            <h3 class="contents-title">업계동향</h3>
+            <div class="swiper mySwiper-industry-trends">
+              <ul class="swiper-wrapper list item">
+                <li class="swiper-slide">
+                  <a href="">
+                    <div class="photo">
+                      <img src="../../image/main_industry_trends01.jpg" alt="">
+                    </div>
+                    <div class="txt-box">
+                      <p class="desc">코로나로 인한 적자 해외건설업 중둥발 해외수주 및 MOU 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트</p>
+                      <time datetime="2021-11-03">2021-09-30</time>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="">
+                    <div class="photo">
+                      <img src="../../image/main_industry_trends02.jpg" alt="">
+                    </div>
+                    <div class="txt-box">
+                      <p class="desc">한국 건설의 아프리카 시장 진출 지원 협력강화 위해 업무협약하고 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트</p>
+                      <time datetime="2021-11-03">2021-09-30</time>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="">
+                    <div class="photo">
+                      <img src="../../image/main_industry_trends03.jpg" alt="">
+                    </div>
+                    <div class="txt-box">
+                      <p class="desc">건설업계가 하반기 고유가에 힘입어 해외수주 반전을 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트</p>
+                      <time datetime="2021-11-03">2021-09-30</time>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="">
+                    <div class="photo">
+                      <img src="../../image/main_industry_trends04.jpg" alt="">
+                    </div>
+                    <div class="txt-box">
+                      <p class="desc">공사 · 용역 물품 등 계약에 대한 대금 지급 소요시간을 대폭 줄이고 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트</p>
+                      <time datetime="2021-11-03">2021-09-30</time>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="">
+                    <div class="photo">
+                      <img src="../../image/main_industry_trends04.jpg" alt="">
+                    </div>
+                    <div class="txt-box">
+                      <p class="desc">공사 · 용역 물품 등 계약에 대한 대금 지급 소요시간을 대폭 줄이고 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트</p>
+                      <time datetime="2021-11-03">2021-09-30</time>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="">
+                    <div class="photo">
+                      <img src="../../image/main_industry_trends04.jpg" alt="">
+                    </div>
+                    <div class="txt-box">
+                      <p class="desc">공사 · 용역 물품 등 계약에 대한 대금 지급 소요시간을 대폭 줄이고 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트</p>
+                      <time datetime="2021-11-03">2021-09-30</time>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="">
+                    <div class="photo">
+                      <img src="../../image/main_industry_trends04.jpg" alt="">
+                    </div>
+                    <div class="txt-box">
+                      <p class="desc">공사 · 용역 물품 등 계약에 대한 대금 지급 소요시간을 대폭 줄이고 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트</p>
+                      <time datetime="2021-11-03">2021-09-30</time>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="more">
+              <a href="../../html/info-square/page-dummy.html" class="link-more"></a>
+              <button class="swiper-button-prev prev"></button>
+              <button class="swiper-button-next next"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="history">
+        <div class="inner">
+          <div class="contents">
+            <!-- <div class="swiper mySwiper-history list-wrap">
+              <ul class="swiper-wrapper list item">
+                <li class="swiper-slide">
+                  <div class="photo">
+                    <img src="../../image/main_history_photo.jpg" alt="">
+                  </div>
+                  <div class="txt-box">
+                    <p class="desc">인천항 영종도 준설토 투기장 항만재개발 사업 시공 수주</p>
+                    <time datetime="2021-11-03">2021-11-03</time>
+                  </div>
+                </li>
+              </ul>
+              <div class="btn-wrap">
+                <button class="swiper-button-prev prev"></button>
+                <button class="swiper-button-next next"></button>
+              </div>
+            </div> -->
+
+            <div class="list-wrap">
+              <div class="swiper mySwiper-history list-contents">
+                <ul class="swiper-wrapper list item">
+                  <li class="swiper-slide">
+                    <div class="photo">
+                      <img src="../../image/main_history_photo.jpg" alt="">
+                    </div>
+                    <div class="txt-box">
+                      <p class="desc">인천항 영종도 준설토 투기장 항만재개발 사업 시공 수주</p>
+                      <time datetime="2021-11-03">2021-11-03</time>
+                    </div>
+                  </li>
+                  <li class="swiper-slide">
+                    <div class="photo">
+                      <img src="../../image/main_history_photo.jpg" alt="">
+                    </div>
+                    <div class="txt-box">
+                      <p class="desc">인천항 영종도 준설토 투기장 항만재개발 사업 시공 수주</p>
+                      <time datetime="2021-11-03">2021-11-03</time>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="btn-wrap">
+                <button class="swiper-history_button-prev prev"></button>
+                <button class="swiper-history_button-next next"></button>
+              </div>
+            </div>
+            <!-- <div class="list-wrap">
+              <div class="list-contents">
+                <ul class="list item">
+                  <li>
+                    <div class="photo">
+                      <img src="../../image/main_history_photo.jpg" alt="">
+                    </div>
+                    <div class="txt-box">
+                      <p class="desc">인천항 영종도 준설토 투기장 항만재개발 사업 시공 수주</p>
+                      <time datetime="2021-11-03">2021-11-03</time>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="btn-wrap">
+                <button class="prev"></button>
+                <button class="next"></button>
+              </div>
+            </div> -->
+            
+            <div class="m-history">
+              <img src="../../image/main_history_photo.jpg" alt="">
+              <div class="more">
+                <strong>상합이엔씨</strong>
+                <a href="../../html/about-us/history.html">연혁보기</a>
+              </div>
+            </div>
+            <div class="scroll-list">
+              <ul>
+                <li>
+                  <strong class="tit">2021. 09</strong>
+                  <p class="tit-desc">인천항 영종도 준설토 투기장 항만재개발 사업 사공 수주</p>
+                </li>
+                <li>
+                  <strong class="tit">2021. 09</strong>
+                  <p class="tit-desc">인천항 영종도 준설토 투기장 항만재개발 사업 사공 수주</p>
+                </li>
+                <li>
+                  <strong class="tit">2021. 09</strong>
+                  <p class="tit-desc">인천항 영종도 준설토 투기장 항만재개발 사업 사공 수주</p>
+                </li>
+                <li>
+                  <strong class="tit">2021. 09</strong>
+                  <p class="tit-desc">인천항 영종도 준설토 투기장 항만재개발 사업 사공 수주</p>
+                </li>
+                <li>
+                  <strong class="tit">2021. 09</strong>
+                  <p class="tit-desc">인천항 영종도 준설토 투기장 항만재개발 사업 사공 수주</p>
+                </li>
+                <li>
+                  <strong class="tit">2021. 09</strong>
+                  <p class="tit-desc">인천항 영종도 준설토 투기장 항만재개발 사업 사공 수주</p>
+                </li>
+                <li>
+                  <strong class="tit">2021. 09</strong>
+                  <p class="tit-desc">인천항 영종도 준설토 투기장 항만재개발 사업 사공 수주</p>
+                </li>
+                <li>
+                  <strong class="tit">2021. 09</strong>
+                  <p class="tit-desc">인천항 영종도 준설토 투기장 항만재개발 사업 사공 수주</p>
+                </li>
+                <li>
+                  <strong class="tit">2021. 09</strong>
+                  <p class="tit-desc">인천항 영종도 준설토 투기장 항만재개발 사업 사공 수주</p>
+                </li>
+                <li>
+                  <strong class="tit">2021. 09</strong>
+                  <p class="tit-desc">인천항 영종도 준설토 투기장 항만재개발 사업 사공 수주</p>
+                </li>
+                <li>
+                  <strong class="tit">2021. 09</strong>
+                  <p class="tit-desc">인천항 영종도 준설토 투기장 항만재개발 사업 사공 수주</p>
+                </li>
+                <li>
+                  <strong class="tit">2021. 09</strong>
+                  <p class="tit-desc">인천항 영종도 준설토 투기장 항만재개발 사업 사공 수주</p>
+                </li>
+                <li>
+                  <strong class="tit">2021. 09</strong>
+                  <p class="tit-desc">인천항 영종도 준설토 투기장 항만재개발 사업 사공 수주</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="building-news">
+        <div class="inner">
+          <div class="contents">
+            <h3 class="contents-title">건설뉴스</h3>
+            <ul class="news-list item">
+              <li>
+                <a href="">
+                  <p class="desc">국토부, '제2차 국가도로망 종합계획('21∼'30)' 심의의결</p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <p class="desc">담합을 유발하는 아파트 보수공사·용역 입찰제도 개선</p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <p class="desc">환경부, 추석 연휴 기간 층간소음 예방 홍보 강화</p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <p class="desc">공정위, 하도급법 시행령 일부 개정안 입법예고</p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <p class="desc">한국건설인정책연구원, 건설기술인교육·훈련기관 원격교육과정 운영...</p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <p class="desc">국토부, '제2차 국가도로망 종합계획('21∼'30)' 심의의결</p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <p class="desc">담합을 유발하는 아파트 보수공사·용역 입찰제도 개선</p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <p class="desc">환경부, 추석 연휴 기간 층간소음 예방 홍보 강화</p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <p class="desc">공정위, 하도급법 시행령 일부 개정안 입법예고</p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <p class="desc">한국건설인정책연구원, 건설기술인교육·훈련기관 원격교육과정 운영...</p>
+                </a>
+              </li>
+            </ul>
+            <a href="../../html/info-square/news.html" class="link-more">
+              <img src="../../image/main_industry_trends_linkmore.png" alt="">
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+    <!-- 푸터 -->
+    <footer class="footer">
+      <div class="inner">
+        <div class="contents">
+          <div class="logo">
+            <img src="../../image/footer_logo.png" alt="로고">
+          </div>
+          <div class="company-info">
+            <ul>
+              <li><p>본사 : 51721 경상남도 창원시 마산합포구 해안대로367, 10층 1005호(동성동, 호텔엠에스)</p></li>
+              <li><p>서울사무소 : 06667 서울특별시 서초구 효령로 165, 301호(서초동, 한진빌딩)</p></li>
+              <li><p>전화 : 055-237-0038<span></span>대표 : 이선준<span></span>업종 : 토목시설물 건설업<span></span>사업자등록번호 : 108 - 81 - 64573</p></li>
+            </ul>
+            <span class="copy">&copy;상합이엔씨</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

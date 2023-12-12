@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+.sub-business .bg-photo {
+  background-image: url('../../image/sub_visual_business.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px
+}
+.construct-page .title-area .desc {
+  text-align: left;
+}
+
+.construct-page .contents-area .sub-contents .photo-list-intro > li:nth-child(1) {
+  width: calc(100%);
+  margin: inherit;
+}
+.construct-page .contents-area .sub-contents .photo-list-intro > li:nth-child(2) {
+  width: calc(50% - 28px);
+  margin: 0 56px 0 0;
+}
+.construct-page .contents-area .sub-contents .photo-list-intro > li:nth-child(3) {
+  width: calc(50% - 28px);
+  margin: 0;
+}
+/* .sub-container .contents-area .sub-contents .photo-list-intro > li:nth-child(1) {
+  width: calc(100%);
+  margin: inherit;
+}
+.sub-container .contents-area .sub-contents .photo-list-intro > li:nth-child(2) {
+  width: calc(50% - 28px);
+  margin: 0 56px 0 0;
+}
+.sub-container .contents-area .sub-contents .photo-list-intro > li:nth-child(3) {
+  width: calc(50% - 28px);
+  margin: 0;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 반응형 웹 - 공통 */
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  
+}

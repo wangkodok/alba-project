@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+.sub-bici .bg-photo {
+  background-image: url('../../image/sub_visual_bici.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px
+}
+
+.bici-page .title-area .desc {
+  text-align: left;
+}
+.bici-page .downe {
+  text-align: right;
+}
+.bici-page .downe a {
+  display: inline-block;
+}
+.bici-page .bici-list .logo-contents {
+  height: 100%;
+}
+.bici-page .bici-list .bg {
+  background-image: url('../../image/bici_down_bg.png');
+  background-repeat: repeat;
+  background-size: auto;
+  width: 100%;
+  height: 100%;
+  padding: 60px 0;
+  display: inline-block;
+}
+.bici-page .bici-list .logo-intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.bici-page .bici-list .logo-intro > li {
+  margin: 0 64px;
+}
+.bici-page .bici-list .logo-intro-next {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.bici-page .bici-list .logo-intro-next > li {
+  margin: 0 20px;
+}
+.bici-page .logo-color {
+  display: flex;
+}
+.bici-page .logo-color p {
+  padding: 0 60px 0 0 ;
+}
+
+
+
+
+
+
+
+
+
+
+/* 반응형 웹 - bici */
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  .bici-page .bici-list .bg {padding: 24px 0;}
+  .bici-page .bici-list .logo-intro > li {width: 33.33%; margin: 0 0 24px 0;}
+  .bici-page .bici-list .logo-intro img {width: 100%;}
+  .bici-page .bici-list .logo-intro-next > li {width: 33.33%; margin: 0 0 24px 0;}
+  .bici-page .bici-list .logo-intro-next img {width: 100%;}
+  .bici-page .downe {margin: 24px 0 0 0;}
+  .bici-page .logo-color {display: block;}
+  .bici-page .logo-color p {padding: initial; margin: 0 0 24px 0;}
+  .bici-page .logo-color img {width: 100%;}
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .bici-page .bici-list .bg {padding: 24px 0;}
+  .bici-page .bici-list .logo-intro > li {width: 33.33%; margin: 0 0 24px 0;}
+  .bici-page .bici-list .logo-intro img {width: 100%;}
+  .bici-page .bici-list .logo-intro-next > li {width: 33.33%; margin: 0 0 24px 0;}
+  .bici-page .bici-list .logo-intro-next img {width: 100%;}
+  .bici-page .downe {margin: 24px 0 0 0;}
+  .bici-page .logo-color {display: block;}
+  .bici-page .logo-color p {padding: initial; margin: 0 0 24px 0;}
+  .bici-page .logo-color img {width: 100%;}
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .bici-page .bici-list .bg {padding: 24px 0;}
+  .bici-page .bici-list .logo-intro {justify-content: inherit;}
+  .bici-page .bici-list .logo-intro > li {width: 50%; margin: 0 0 24px 0;}
+  .bici-page .bici-list .logo-intro img {width: 100%;}
+  .bici-page .bici-list .logo-intro-next > li {width: 100%; margin: 0 0 24px 0;}
+  .bici-page .bici-list .logo-intro-next img {width: 100%;}
+  .bici-page .downe {margin: 24px 0 0 0;}
+  .bici-page .downe img {width: 75%;}
+  .bici-page .logo-color {display: block;}
+  .bici-page .logo-color p {padding: initial; margin: 0 0 24px 0;}
+  .bici-page .logo-color img {width: 100%;}
+}

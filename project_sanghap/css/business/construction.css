@@ -1,0 +1,213 @@
+@charset "utf-8";
+
+.sub-business .bg-photo {
+  background-image: url('../../image/sub_visual_business.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.construction-page .contents-area .sub-contents .search-bar {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  max-width: 952px;
+  margin: 0 auto 90px;
+}
+
+.construction-page .contents-area .sub-contents .text-box {
+  width: 180px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #0a1032;
+  color: #fff;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.construction-page .contents-area .sub-contents .text {
+  width: 100%;
+}
+
+.construction-page .contents-area .sub-contents .search {
+  height: 60px;
+  width: 100%;
+}
+
+.construction-page .contents-area .sub-contents input {
+  height: 60px;
+  width: 100%;
+  border: 1px solid #c9cacb;
+  box-sizing: border-box;
+  padding: 0 0 0 24px;
+}
+
+.construction-page .contents-area .sub-contents .button {
+  width: 180px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #0a1032;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.construction-page .contents-area .sub-contents button {
+  color: #fff;
+}
+
+
+
+
+
+
+
+.construction-page .contents-area table {
+  border-collapse: collapse;
+}
+
+.construction-page .contents-area caption {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.construction-page .contents-area .board_list_wrap {
+  padding: 50px;
+}
+
+.construction-page .contents-area .board_list {
+  width: 100%;
+  border-top: 2px solid #3d3d3d;
+}
+
+.construction-page .contents-area .board_list thead tr {
+  background-color: #fcfcfc;
+}
+.construction-page .contents-area .board_list tbody tr {
+  color: #919191;
+}
+
+.construction-page .contents-area .board_list tr {
+  border-bottom: 1px solid #ccc;
+}
+
+.construction-page .contents-area .board_list th,
+.construction-page .contents-area .board_list td {
+  padding: 24px 0;
+  font-size: 14px;
+}
+
+.construction-page .contents-area .board_list td {
+  text-align: center;
+}
+
+.construction-page .contents-area .board_list .td-tit {
+  text-align: left;
+}
+
+.construction-page .contents-area .board_list .td-tit:hover {
+  text-decoration: underline;
+}
+
+.construction-page .page-link {
+  text-align: center;
+  margin: 120px 0 0 0;
+}
+
+.construction-page .page-list {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.construction-page .page-list::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.construction-page .page-item {
+  float: left;
+  margin: 0 14px 0 0;
+}
+
+.construction-page .page-item {
+  float: left;
+  margin: 0 14px 0 0;
+}
+
+.construction-page .page-item:last-child {
+  margin: 0 0 0 0;
+}
+
+.construction-page .more {
+  border: 1px solid #cbccce;
+  color: #939598;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 25px;
+}
+
+.construction-page .page-item.on .more {
+  background-color: #0a1032;
+  color: #fff;
+  height: 36px;
+  line-height: 36px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 반응형 웹 - bici */
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  .construction-page .contents-area .sub-contents .search-bar {
+    margin: 0 auto 40px;
+  }
+  .construction-page .contents-area .board_list_wrap {
+    padding: 0 40px;
+  }
+  .construction-page .page-link {
+    margin: 60px 0 0 0;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .construction-page .contents-area .sub-contents .text-box {
+    width: 140px;
+  }
+  .construction-page .contents-area .sub-contents .button {
+    width: 120px;
+  }
+  .construction-page .contents-area .sub-contents .search-bar {
+    margin: 0 0 32px 0;
+  }
+  .construction-page .contents-area .board_list_wrap {
+    padding: initial;
+  }
+  .construction-page .page-link {
+    margin: 40px 0 0 0;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .construction-page .contents-area .sub-contents .search-bar {
+    margin: 0 0 24px 0;
+  }
+  .construction-page .contents-area .board_list_wrap {
+    padding: initial;
+  }
+  .construction-page .page-link {
+    margin: 20px 0 0 0;
+  }
+}

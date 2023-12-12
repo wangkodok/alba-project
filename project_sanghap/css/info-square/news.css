@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+.sub-sh_news .bg-photo {
+  background-image: url('../../image/sub_visual_infoplaza.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px
+}
+
+.news-details .desc-box p {
+  padding: 26px;
+  font-size: 20px;
+  line-height: 32px;
+  color: #fff;
+  background-color: #0a1032;
+}
+.news-details .date {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 0;
+}
+.news-details .date dl {
+  display: flex;
+}
+.news-details .date dl + dl {
+  margin: 0 0 0 40px;
+}
+/* .news-details .date dt {} */
+/* .news-details .date dt p {} */
+.news-details .date dt span {
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+/* .news-details .date dd {} */
+/* .news-details .date dd p {} */
+/* .news-details .date dd p time {} */
+.news-details .view {
+  padding: 48px 40px;
+  border-top: 1px solid #d1d1d1;
+  border-bottom: 1px solid #d1d1d1;
+}
+.news-details .view figure {
+  display: flex;
+  justify-content: center;
+}
+.news-details .view figure img {
+  width: 100%;
+}
+.news-details .view p {
+  margin: 20px 0 0 0;
+  color: #252525;
+  line-height: 36px;
+  font-size: 20px;
+  letter-spacing: -1px;
+  text-align: initial;
+}
+.news-details .page-link {
+  display: flex;
+  justify-content: flex-end;
+  margin: 40px 0 0 0;
+}
+.news-details .page-link a {
+  padding: 18px 38px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #4d4d4d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 반응형 웹 - 공통 */
+@media all and (min-width: 1024px) and (max-width: 1280px) {}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {}
+
+@media all and (min-width: 320px) and (max-width: 767px) {}
