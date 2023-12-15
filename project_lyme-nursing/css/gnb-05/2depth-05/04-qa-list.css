@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+.qa-list .visual .bg {
+  background-image: url('../../../image/sub/sub-visual_depth05.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  width: 100%;
+  height: 320px;
+}
+
+.qa-list .qa-contents {
+  padding: 120px 0 0 0;
+}
+
+.qa-list .qa-contents span {
+  font-family: 'Carnas', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.qa-list .qa-contents .q-item {
+  position: relative;
+  margin: 0 0 10px 0;
+}
+
+.qa-list .qa-contents .more {
+  position: relative;
+  padding: 0 40px;
+  border: 1px solid #ddd;
+}
+
+.qa-list .qa-contents .more::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%);
+  background-image: url('../../../image/sub/qa-check-top.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 25px;
+  height: 14px;
+}
+
+.qa-list .qa-contents .q-txt {
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
+  color: #366d33;
+}
+
+.qa-list .qa-contents .q-desc {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 12px 0 12px 20px;
+  box-sizing: border-box;
+  font-size: 24px;
+}
+
+.qa-list .qa-contents .a-item {
+  padding: 40px;
+}
+
+.qa-list .qa-contents .a-txt {
+  display: inline-block;
+  line-height: 1;
+  vertical-align: top;
+  color: #5daf30;
+}
+
+.qa-list .qa-contents .a-desc {
+  display: inline-block;
+  vertical-align: top;
+  padding: 12px 0 12px 20px;
+  box-sizing: border-box;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.qa-list .qa-contents .point {
+  color: #fff;
+  background-color: #196674;
+  padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+/* 서브 페이지  - 자주묻는 질문 반응형 시작 */
+@media all and (min-width: 1320px) and (max-width: 1600px) {
+  
+}
+
+@media all and (min-width: 1024px) and (max-width: 1319px) {
+  
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .qa-list .visual .bg {background-size: cover; height: 480px;}
+}
+
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .qa-list .visual .bg {background-size: cover; height: 480px;}
+
+  .qa-list .qa-contents span {font-size: 28px;}
+  .qa-list .qa-contents .more {padding: 0 20px;}
+  .qa-list .qa-contents .more::after {right: 20px; width: 16px; height: 8px;}
+  .qa-list .qa-contents .q-desc {padding: 6px 0 6px 10px; font-size: 20px;}
+  .qa-list .qa-contents .a-item {padding: 20px;}
+  .qa-list .qa-contents .a-desc {padding: 0; font-size: 20px; line-height: 40px;}
+}
+
+@media all and (min-width: 320px) and (max-width: 479px) {
+  .qa-list .visual .bg {background-size: cover; height: 480px;}
+
+  .qa-list .qa-contents span {font-size: 16px;}
+  .qa-list .qa-contents .more {padding: 0 5px;}
+  .qa-list .qa-contents .more::after {content: none;}
+  .qa-list .qa-contents .q-desc {padding: 0; font-size: 16px;}
+  .qa-list .qa-contents .a-item {padding: 5px;}
+  .qa-list .qa-contents .a-desc {padding: 0; font-size: 16px; line-height: 32px;}
+}

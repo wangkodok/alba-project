@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/* 
+
+download url : https://www.gg.go.kr/contents/contents.do?ciIdx=679&menuId=2457
+font : 경기천년제목, 경기천년바탕
+
+*/
+
+@font-face {
+  font-family: 'GyeonggiBatang_Batang_Bold';
+  src: url('../font/woff/Batang_Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GyeonggiBatang_Batang_Regular';
+  src: url('../font/woff/Batang_Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GyeonggiBatang_Title_Bold';
+  src: url('../font/woff/Title_Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GyeonggiBatang_Title_Medium';
+  src: url('../font/woff/Title_Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GyeonggiBatang_Title_Light';
+  src: url('../font/woff/Title_Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GyeonggiBatang_TitleV';
+  src: url('../font/woff/TitleV.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

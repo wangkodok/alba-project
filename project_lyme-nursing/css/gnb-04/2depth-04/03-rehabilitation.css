@@ -1,0 +1,273 @@
+@charset "utf-8";
+
+.sub-contents .subpage {
+  padding: 120px 0 0 0;
+}
+
+.sub-contents .subpage .subpage-area {
+  padding: 0 0 0 280px;
+  position: relative;
+}
+
+.sub-contents .subpage .text {
+  position: absolute;
+  top: 210px;
+  left: -120px;
+  transform: rotate(90deg);
+  font-size: 70px;
+  text-transform: uppercase;
+  line-height: 1;
+  font-family: Calibri sans-serif;
+}
+
+.sub-contents .subpage .subpage-photo-img {
+  width: 100%;
+}
+
+.sub-contents .subpage-text-box .title {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  margin: 80px 0 0 0;
+}
+
+.sub-contents .subpage-text-box .point01 {
+  color: #5daf30;
+}
+
+.sub-contents .subpage-text-box .point02 {
+  color: #366d33;
+}
+
+.sub-contents .subpage-text-box .line {
+  width: 120px;
+  height: 6px;
+  margin: 40px 0 0 0;
+  background-color: #366d33;
+}
+
+.sub-contents .subpage-text-box .desc {
+  margin: 40px 0 0 0;
+  font-size: 24px;
+}
+
+.sub-contents .subpage-desc-box {
+  padding: 0 0 0 280px;
+}
+
+.sub-contents .subpage-desc-box .txt-list {
+  padding: 100px 0 0 0;
+}
+
+.sub-contents .subpage-desc-box li {
+  margin: 0 0 60px 0;
+}
+
+.sub-contents .subpage-desc-box p {
+  padding: 0 0 0 20px;
+  margin: 0 0 16px 0;
+}
+
+.sub-contents .subpage-desc-box .desc {
+  position: relative;
+  font-size: 28px;
+  font-weight: 700;
+  color: #366d33;
+}
+
+.sub-contents .subpage-desc-box .desc::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #366d33;
+}
+
+.sub-contents .subpage-desc-box .pros-cons li {
+  display: inline-block;
+  padding: 0 60px 0 0;
+  box-sizing: border-box;
+}
+
+.sub-contents .subpage-desc-box .pros-cons div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.sub-contents .subpage-desc-box .pros-cons p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.sub-contents .subpage-desc-box .desc-area li {
+  margin: 0 0 -4px 0;
+}
+
+.sub-contents .subpage-desc-box .desc-area dl {
+  display: table;
+  border-spacing: 4px;
+  height: 140px;
+}
+
+.sub-contents .subpage-desc-box .desc-area dt {
+  display: table-cell;
+  vertical-align: middle;
+  width: 290px;
+  height: 100%;
+  background-color: #d9d9d9;
+  box-sizing: border-box;
+}
+
+.sub-contents .subpage-desc-box .desc-area dd {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  background-color: #e6e6e6;
+}
+
+.sub-contents .subpage-desc-box .desc-area dt, dd {
+  padding: 0 20px;
+}
+
+.sub-contents .subpage-desc-box .desc-area p {
+  padding: 0;
+  margin: 0;
+}
+
+.rehabilitation .visual .bg {
+  background-image: url('../../../image/sub/sub-visual_depth04.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  width: 100%;
+  height: 320px;
+}
+
+.rehabilitation .subpage .text {
+  top: 211px;
+  left: -160px;
+  transform: rotate(90deg);
+  font-size: 70px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.rehabilitation .subpage-desc-box .line-box-desc {
+  padding: 50px 40px 80px;
+  margin: 0 0 0 20px;
+  box-sizing: border-box;
+  border: 1px solid #dedede;
+  border-radius: 20px;
+  background-image: url('../../../image/common/contents-mark.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right bottom -157px;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.rehabilitation .subpage-desc-box .line-box-desc p {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 서브 페이지  - 재활치료실 반응형 시작 */
+@media all and (min-width: 1320px) and (max-width: 1600px) {
+  .sub-contents .subpage .subpage-area {padding: 0 0 0 280px; position: relative;}
+  .sub-contents .subpage .text {position: absolute; font-family: Calibri sans-serif;}
+  .sub-contents .subpage .subpage-photo-img {width: 100%;}
+  .sub-contents .subpage-text-box .title {font-size: 36px; font-weight: 700; line-height: 48px; margin: 56px 0 0 0;}
+  .sub-contents .subpage-text-box .line {width: 80px; height: 6px; margin: 28px 0 0 0; background-color: #366d33;}
+  .sub-contents .subpage-text-box .desc {margin: 28px 0 0 0; font-size: 20px;}
+
+  .rehabilitation .subpage .text {top: 145px; left: -30px; transform: rotate(90deg); font-size: 48px; text-transform: uppercase; line-height: 1; font-family: Calibri sans-serif;}
+}
+
+@media all and (min-width: 1024px) and (max-width: 1319px) {
+  .sub-contents .subpage .subpage-area { padding: 0 0 0 280px; position: relative;}
+  .sub-contents .subpage .text {position: absolute; font-family: Calibri sans-serif;}
+  .sub-contents .subpage .subpage-photo-img {width: 100%;}
+  .sub-contents .subpage-text-box .title {font-size: 28px; font-weight: 700; line-height: 36px; margin: 56px 0 0 0;}
+  .sub-contents .subpage-text-box .line {width: 80px; height: 6px; margin: 28px 0 0 0; background-color: #366d33;}
+  .sub-contents .subpage-text-box .desc {margin: 28px 0 0 0; font-size: 20px;}
+
+  .rehabilitation .subpage .text {top: 145px; left: -30px; transform: rotate(90deg); font-size: 48px; text-transform: uppercase; line-height: 1; font-family: Calibri sans-serif;}
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .sub-contents .subpage .subpage-area {padding: 0; position: static;}
+  .sub-contents .subpage .text {position: static; font-family: Calibri sans-serif;}
+  .sub-contents .subpage .text br {display: none;}
+  .sub-contents .subpage .subpage-photo-img {width: 100%;}
+  .sub-contents .subpage-text-box .title {font-size: 28px; font-weight: 700; line-height: 36px; margin: 80px 0 0 0;}
+  .sub-contents .subpage-text-box .line {width: 120px; height: 6px; margin: 40px 0 0 0; background-color: #366d33;}
+  .sub-contents .subpage-text-box .desc { margin: 40px 0 0 0; font-size: 20px;}
+
+  .sub-contents .subpage-desc-box {padding: 0;}
+  .sub-contents .subpage-desc-box .pros-cons p {margin: 0;}
+
+  .rehabilitation .visual .bg {background-size: cover; height: 480px;}
+  .rehabilitation .subpage .text {top: auto; left: auto; display: block; margin: 0 0 20px 0; transform: rotate(0deg); font-size: 36px; text-transform: uppercase; line-height: initial;}
+}
+
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .sub-contents .subpage .subpage-area {padding: 0; position: static;}
+  .sub-contents .subpage .text {position: static; font-family: Calibri sans-serif;}
+  .sub-contents .subpage .text br {display: none;}
+  .sub-contents .subpage .subpage-photo-img {width: 100%;}
+  .sub-contents .subpage-text-box .title {font-size: 20px; font-weight: 700; line-height: 28px; margin: 80px 0 0 0;}
+  .sub-contents .subpage-text-box .line {width: 120px; height: 6px; margin: 40px 0 0 0; background-color: #366d33;}
+  .sub-contents .subpage-text-box .desc { margin: 40px 0 0 0; font-size: 16px;}
+
+  .sub-contents .subpage-desc-box .pros-cons li {position: relative; height: 120px; display: block; padding: 0 0 0 100px;}
+  .sub-contents .subpage-desc-box .pros-cons div {position: absolute; display: block; top: 50%; left: 0; transform: translateY(-50%);}
+  .sub-contents .subpage-desc-box .pros-cons img {width: 80px;}
+  .sub-contents .subpage-desc-box .pros-cons p {position: absolute; top: 50%; transform: translateY(-50%); padding: 0; margin: 0;}
+  .sub-contents .subpage-desc-box .pros-cons p br {display: none;}
+  .sub-contents .subpage-desc-box {padding: 0;}
+  .sub-contents .subpage-desc-box .desc-area dt {width: 180px;}
+
+  .rehabilitation .visual .bg {background-size: cover; height: 480px;}
+  .rehabilitation .subpage .text {top: auto; left: auto; display: block; margin: 0 0 20px 0; transform: rotate(0deg); font-size: 24px; text-transform: uppercase; line-height: initial;}
+}
+
+@media all and (min-width: 320px) and (max-width: 479px) {
+  .sub-contents .subpage .subpage-area {padding: 0; position: static;}
+  .sub-contents .subpage .text {position: static; font-family: Calibri sans-serif;}
+  .sub-contents .subpage .text br {display: none;}
+  .sub-contents .subpage .subpage-photo-img {width: 100%;}
+  .sub-contents .subpage-text-box .title {font-size: 20px; font-weight: 700; line-height: 28px; margin: 80px 0 0 0;}
+  .sub-contents .subpage-text-box .line {width: 120px; height: 6px; margin: 40px 0 0 0; background-color: #366d33;}
+  .sub-contents .subpage-text-box .desc { margin: 40px 0 0 0; font-size: 16px;}
+
+  .sub-contents .subpage-desc-box .pros-cons li {position: relative; height: 200px; display: block; padding: 0 0 0 100px; margin: 0;}
+  .sub-contents .subpage-desc-box .pros-cons div {position: absolute; display: block; top: 50%; left: 0; transform: translateY(-50%);}
+  .sub-contents .subpage-desc-box .pros-cons img {width: 80px;}
+  .sub-contents .subpage-desc-box .pros-cons p {position: absolute; top: 50%; transform: translateY(-50%); padding: 0; margin: 0;}
+  .sub-contents .subpage-desc-box .pros-cons p br {display: none;}
+  .sub-contents .subpage-desc-box {padding: 0;}
+  .sub-contents .subpage-desc-box .desc-area li {margin: 0 0 20px 0;}
+  .sub-contents .subpage-desc-box .desc-area dl {display: block; height: auto;}
+  .sub-contents .subpage-desc-box .desc-area dt, dd {padding: 20px;}
+  .sub-contents .subpage-desc-box .desc-area dt {display: block; width: 100%;}
+  .sub-contents .subpage-desc-box .desc-area dt {font-weight: 700;}
+  .sub-contents .subpage-desc-box .desc-area dd {display: block;}
+
+  .rehabilitation .visual .bg {background-size: cover; height: 480px;}
+  .rehabilitation .subpage .text {top: auto; left: auto; display: block; margin: 0 0 20px 0; transform: rotate(0deg); font-size: 24px; text-transform: uppercase; line-height: initial;}
+}

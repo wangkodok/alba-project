@@ -1,0 +1,338 @@
+@charset "utf-8";
+
+.road-tiem .visual .bg {
+  background-image: url('../../../image/sub/sub-visual_depth01.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  width: 100%;
+  height: 320px;
+}
+
+.road-tiem .map {
+  padding: 120px 0 0 0;
+}
+
+.road-tiem .map img {
+  width: 100%;
+}
+
+.road-tiem .map-more {
+  text-align: right;
+  margin: -50px 0 0 0;
+}
+
+.road-tiem .map-guide {
+  margin: 100px 0 0 0;
+}
+
+.road-tiem .map-guide li {
+  background-image: url('../../../image/common/contents-icon.png');
+  background-repeat: no-repeat;
+  background-size: 52px auto;
+  width: 100%;
+  height: auto;
+  padding: 0 0 7px 72px;
+  margin: 0 0 36px 0;
+  box-sizing: border-box;
+}
+
+.road-tiem .map-guide li:nth-child(1) {
+  background-position: 0 0;
+}
+
+.road-tiem .map-guide li:nth-child(2) {
+  background-position: 0 -97px;
+}
+
+.road-tiem .map-guide li:nth-child(3) {
+  background-position: 0 -195px;
+}
+
+.road-tiem .map-guide-address .desc {
+  font-size: 30px;
+}
+
+.road-tiem .map-guide-bus > div {
+  height: 45px;
+}
+
+.road-tiem .map-guide-bus .bus {
+  position: relative;
+  float: left;
+  font-size: 30px;
+  padding: 0 20px 0 0;
+  margin: 0 20px 0 0;
+}
+
+.road-tiem .map-guide-bus .bus::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 24px;
+  background-color: #636363;
+}
+
+.road-tiem .map-guide-bus .bus:last-child::after {
+  content: none;
+}
+
+.road-tiem .map-guide-bus .bus dt, dd {
+  display: inline-block;
+}
+
+.road-tiem .map-guide-bus .bus dd {
+  display: inline-block;
+}
+
+.road-tiem .map-guide-bus .desc {
+  font-size: 30px;
+  color: #366d33;
+}
+
+.road-tiem .map-guide-subway dl {
+  font-size: 30px;
+}
+
+.road-tiem .map-guide-subway dt, dd {
+  display: inline-block;
+}
+
+.road-tiem .tiem {
+  position: relative;
+  margin: 120px 0 0 0;
+}
+.road-tiem .tiem::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.road-tiem .tiem .photo {
+  position: relative;
+  float: left;
+  height: 100%;
+  padding: 0 0 0 170px;
+}
+.road-tiem .tiem .photo .txt {
+  position: absolute;
+  top: 104px;
+  left: -60px;
+  display: block;
+  font-size: 50px;
+  color: #366d33;
+  font-family: 'GyeonggiBatang_Batang_Regular';
+  transform: rotate(90deg);
+}
+.road-tiem .tiem-text {
+  float: left;
+  margin: 0 0 0 32px;
+}
+.road-tiem .tiem-text::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.road-tiem .tiem-text .icon {
+  display: block;
+  float: left;
+  background-image: url('../../../image/common/contents-icon.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 0 -292px;
+  width: 52px;
+  height: 52px;
+}
+.road-tiem .tiem-text .office-list {
+  float: left;
+  margin: 0 0 0 24px;
+}
+.road-tiem .tiem-text .office-item dl {
+  font-size: 30px;
+}
+.road-tiem .tiem-text .office-item dt, dd {
+  display: inline-block;
+  font-weight: 500;
+}
+.road-tiem .tiem-text .office-item dt {
+  width: 132px;
+}
+.road-tiem .tiem-text .office-item .green {
+  color: #366d33;
+}
+.road-tiem .tiem-text .office-item .pale-green {
+  color: #6eb92b;
+}
+.road-tiem .tiem-text .consulting {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  clear: both;
+}
+.road-tiem .tiem-text .consulting ul::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.road-tiem .tiem-text .consulting li {
+  float: left;
+}
+.road-tiem .tiem-text .consulting li + li {
+  margin: 0 0 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* 서브 페이지  - 오시는 길 · 진료시간 반응형 시작 */
+@media all and (min-width: 1320px) and (max-width: 1600px) {}
+
+@media all and (min-width: 1024px) and (max-width: 1319px) {
+  .road-tiem .map-guide-address .desc {font-size: 24px; height: 52px; line-height: 52px;}
+  .road-tiem .map-guide-bus .bus {position: relative; float: left; height: 100%; line-height: 52px; font-size: 24px; padding: 0 10px 0 0; margin: 0 10px 0 0;}
+  .road-tiem .map-guide-bus .bus::after {top: 26px; width: 1px; height: 12px;}
+  .road-tiem .map-guide-bus .desc {height: 30px; line-height: 52px; font-size: 24px;}
+  .road-tiem .map-guide-subway dl {height: 40px; line-height: 52px; font-size: 24px;}
+  
+  .road-tiem .tiem {position: static; margin: 0;}
+  .road-tiem .tiem::after {content: ''; display: block; clear: both;}
+  .road-tiem .tiem .photo {position: static; float: none; height: 100%; padding: 0;}
+  .road-tiem .tiem .photo img {display: none;}
+  .road-tiem .tiem .photo .txt {position: static; transform: rotate(0deg);}
+  .road-tiem .tiem-text {float: none; margin: 28px 0 0 0;}
+  .road-tiem .tiem-text::after {content: ''; display: block; clear: both;}
+  .road-tiem .tiem-text .icon {float: left;}
+  .road-tiem .tiem-text .office-list {float: left; margin: 0 0 0 20px;}
+  .road-tiem .tiem-text .office-item dl {font-size: 24px;}
+  .road-tiem .tiem-text .office-item dt {width: 100px;}
+  .road-tiem .tiem-text .consulting {position: static; right: initial; bottom: initial; padding: 56px 0 0 0; clear: both;}
+  .road-tiem .tiem-text .consulting ul::after {content: ''; display: block; clear: both;}
+  .road-tiem .tiem-text .consulting li {float: left;}
+  .road-tiem .tiem-text .consulting li + li {margin: 0 0 0 20px;}
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .road-tiem .map-more {width: 260px; text-align: initial; margin: -28px 0 0 auto;}
+  .road-tiem .map-more img {width: 100%;}
+
+  .road-tiem .visual .bg {background-size: cover; height: 480px;}
+
+  .road-tiem .map-guide {margin: 30px 0 0 0;}
+  .road-tiem .map-guide li {margin: 0 0 20px 0;}
+  .road-tiem .map-guide-address .desc {font-size: 16px; height: 52px; line-height: 52px;}
+  .road-tiem .map-guide-bus .bus {position: relative; float: left; height: 100%; line-height: 50px; font-size: 16px; padding: 0 6px 0 0; margin: 0 6px 0 0;}
+  .road-tiem .map-guide-bus .bus::after {top: 26px; width: 1px; height: 12px;}
+  .road-tiem .map-guide-bus .desc {height: 30px; line-height: 16px; font-size: 16px;}
+  .road-tiem .map-guide-subway dl {height: 28px; line-height: 52px; font-size: 16px;}
+
+  .road-tiem .tiem {position: static; margin: 0;}
+  .road-tiem .tiem::after {content: ''; display: block; clear: both;}
+  .road-tiem .tiem .photo {position: static; float: none; height: 100%; padding: 0;}
+  .road-tiem .tiem .photo img {display: none;}
+  .road-tiem .tiem .photo .txt {position: static; font-size: 36px; transform: rotate(0deg);}
+  .road-tiem .tiem-text {float: none; margin: 28px 0 0 0;}
+  .road-tiem .tiem-text::after {content: ''; display: block; clear: both;}
+  .road-tiem .tiem-text .icon {float: left;}
+  .road-tiem .tiem-text .office-list {float: left; margin: 0 0 0 20px;}
+  .road-tiem .tiem-text .office-item dl {font-size: 16px;}
+  .road-tiem .tiem-text .office-item dt {width: 100px;}
+  .road-tiem .tiem-text .consulting {position: static; right: initial; bottom: initial; padding: 56px 0 0 0; clear: both;}
+  .road-tiem .tiem-text .consulting ul::after {content: ''; display: block; clear: both;}
+  .road-tiem .tiem-text .consulting li {float: left; width: 50%;}
+  .road-tiem .tiem-text .consulting li + li {margin: 0;}
+  .road-tiem .tiem-text .consulting img {width: 100%;}
+}
+
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .road-tiem .map-more {width: 260px; text-align: initial; margin: -28px 0 0 auto;}
+  .road-tiem .map-more img {width: 100%;}
+
+  .road-tiem .visual .bg {background-size: cover; height: 480px;}
+
+  .road-tiem .map-guide {margin: 30px 0 0 0;}
+  .road-tiem .map-guide li {background-image: none; padding: 0; margin: 0 0 32px 0;}
+  .road-tiem .map-guide li:nth-child(1) {background-position: initial;}
+  .road-tiem .map-guide li:nth-child(2) {background-position: initial;}
+  .road-tiem .map-guide li:nth-child(3) {background-position: initial;}
+  .road-tiem .map-guide-address .address-icon {background-image: url('../../../image/common/contents-icon.png'); background-repeat: no-repeat; background-size: auto; background-position: 0 0; width: 52px; height: 52px; margin: 0 0 16px 0; display: block;}
+  .road-tiem .map-guide-address .desc {font-size: 20px;}
+  .road-tiem .map-guide-bus .bus-icon {background-image: url('../../../image/common/contents-icon.png'); background-repeat: no-repeat; background-size: auto; background-position: 0 -97px; width: 52px; height: 52px; margin: 0 0 16px 0; display: block;}
+  .road-tiem .map-guide-bus > div {height: auto;}
+  .road-tiem .map-guide-bus .bus {position: static; float: none; font-size: 20px; padding: 0; margin: 0;}
+  .road-tiem .map-guide-bus .bus::after {content: none;}
+  .road-tiem .map-guide-bus .bus:last-child::after {content: none;}
+  .road-tiem .map-guide-bus .bus dt, dd {display: inline-block;}
+  .road-tiem .map-guide-bus .bus dd {display: inline-block;}
+  .road-tiem .map-guide-bus .desc {font-size: 20px; color: #366d33;}
+  .road-tiem .map-guide-subway .subway-icon {background-image: url('../../../image/common/contents-icon.png'); background-repeat: no-repeat; background-size: auto; background-position: 0 -195px; width: 52px; height: 52px; margin: 0 0 16px 0;  display: block;}
+  .road-tiem .map-guide-subway dl {font-size: 20px;}
+  .road-tiem .map-guide-subway dt, dd {display: inline-block;}
+
+  .road-tiem .tiem {position: static; margin: 0;}
+  .road-tiem .tiem::after {content: ''; display: block; clear: both;}
+  .road-tiem .tiem .photo {position: static; float: none; height: 100%; padding: 0;}
+  .road-tiem .tiem .photo img {display: none;}
+  .road-tiem .tiem .photo .txt {position: static; font-size: 36px; transform: rotate(0deg);}
+  .road-tiem .tiem-text {float: none; margin: 28px 0 0 0;}
+  .road-tiem .tiem-text::after {content: ''; display: block; clear: both;}
+  .road-tiem .tiem-text .icon {float: left;}
+  .road-tiem .tiem-text .office-list {float: left; margin: 0 0 0 20px;}
+  .road-tiem .tiem-text .office-item dl {font-size: 20px;}
+  .road-tiem .tiem-text .office-item dt {width: 100px;}
+  .road-tiem .tiem-text .consulting {position: static; right: initial; bottom: initial; padding: 56px 0 0 0; clear: both;}
+  .road-tiem .tiem-text .consulting ul::after {content: ''; display: block; clear: both;}
+  .road-tiem .tiem-text .consulting li {float: left; width: 50%;}
+  .road-tiem .tiem-text .consulting li + li {margin: 0;}
+  .road-tiem .tiem-text .consulting img {width: 100%;}
+}
+
+@media all and (min-width: 320px) and (max-width: 479px) {
+  .road-tiem .map-more {width: 180px; text-align: initial; margin: -20px 0 0 auto;}
+  .road-tiem .map-more img {width: 100%;}
+
+  .road-tiem .visual .bg {background-size: cover; height: 480px;}
+
+  .road-tiem .map-guide {margin: 30px 0 0 0;}
+  .road-tiem .map-guide li {background-image: none; padding: 0; margin: 0 0 32px 0;}
+  .road-tiem .map-guide li:nth-child(1) {background-position: initial;}
+  .road-tiem .map-guide li:nth-child(2) {background-position: initial;}
+  .road-tiem .map-guide li:nth-child(3) {background-position: initial;}
+  .road-tiem .map-guide-address .address-icon {background-image: url('../../../image/common/contents-icon.png'); background-repeat: no-repeat; background-size: auto; background-position: 0 0; width: 52px; height: 52px; margin: 0 0 16px 0; display: block;}
+  .road-tiem .map-guide-address .desc {font-size: 16px;}
+  .road-tiem .map-guide-bus .bus-icon {background-image: url('../../../image/common/contents-icon.png'); background-repeat: no-repeat; background-size: auto; background-position: 0 -97px; width: 52px; height: 52px; margin: 0 0 16px 0; display: block;}
+  .road-tiem .map-guide-bus > div {height: auto;}
+  .road-tiem .map-guide-bus .bus {position: static; float: none; font-size: 16px; padding: 0; margin: 0;}
+  .road-tiem .map-guide-bus .bus::after {content: none;}
+  .road-tiem .map-guide-bus .bus:last-child::after {content: none;}
+  .road-tiem .map-guide-bus .bus dt, dd {display: inline-block;}
+  .road-tiem .map-guide-bus .bus dd {display: inline-block;}
+  .road-tiem .map-guide-bus .desc {font-size: 16px; color: #366d33;}
+  .road-tiem .map-guide-subway .subway-icon {background-image: url('../../../image/common/contents-icon.png'); background-repeat: no-repeat; background-size: auto; background-position: 0 -195px; width: 52px; height: 52px; margin: 0 0 16px 0;  display: block;}
+  .road-tiem .map-guide-subway dl {font-size: 16px;}
+  .road-tiem .map-guide-subway dt, dd {display: inline-block;}
+
+  .road-tiem .tiem {position: static; margin: 0;}
+  .road-tiem .tiem::after {content: ''; display: block; clear: both;}
+  .road-tiem .tiem .photo {position: static; float: none; height: 100%; padding: 0;}
+  .road-tiem .tiem .photo img {display: none;}
+  .road-tiem .tiem .photo .txt {position: static; font-size: 28px; transform: rotate(0deg);}
+  .road-tiem .tiem-text {float: none; margin: 28px 0 0 0;}
+  .road-tiem .tiem-text::after {content: ''; display: block; clear: both;}
+  .road-tiem .tiem-text .icon {float: left;}
+  .road-tiem .tiem-text .office-list {float: left; margin: 0 0 0 20px;}
+  .road-tiem .tiem-text .office-item dl {font-size: 16px;}
+  .road-tiem .tiem-text .office-item dt {width: 100px;}
+  .road-tiem .tiem-text .consulting {position: static; right: initial; bottom: initial; padding: 56px 0 0 0; clear: both;}
+  .road-tiem .tiem-text .consulting ul::after {content: ''; display: block; clear: both;}
+  .road-tiem .tiem-text .consulting li {float: left; width: 50%;}
+  .road-tiem .tiem-text .consulting li + li {margin: 0;}
+  .road-tiem .tiem-text .consulting img {width: 100%;}
+}

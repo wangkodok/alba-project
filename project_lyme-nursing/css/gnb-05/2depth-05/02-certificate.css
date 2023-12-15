@@ -1,0 +1,390 @@
+@charset "utf-8";
+
+.sub-contents .subpage {
+  padding: 120px 0 0 0;
+}
+
+.sub-contents .subpage .subpage-area {
+  padding: 0 0 0 280px;
+  position: relative;
+}
+
+.sub-contents .subpage .text {
+  position: absolute;
+  top: 210px;
+  left: -120px;
+  transform: rotate(90deg);
+  font-size: 70px;
+  text-transform: uppercase;
+  line-height: 1;
+  font-family: Calibri sans-serif;
+}
+
+.sub-contents .subpage .subpage-photo-img {
+  width: 100%;
+}
+
+.sub-contents .subpage-text-box .title {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  margin: 80px 0 0 0;
+}
+
+.sub-contents .subpage-text-box .point01 {
+  color: #5daf30;
+}
+
+.sub-contents .subpage-text-box .point02 {
+  color: #366d33;
+}
+
+.sub-contents .subpage-text-box .line {
+  width: 120px;
+  height: 6px;
+  margin: 40px 0 0 0;
+  background-color: #366d33;
+}
+
+.sub-contents .subpage-text-box .desc {
+  margin: 40px 0 0 0;
+  font-size: 24px;
+}
+
+.sub-contents .subpage-desc-box {
+  padding: 0 0 0 280px;
+}
+
+.sub-contents .subpage-desc-box .txt-list {
+  padding: 100px 0 0 0;
+}
+
+.sub-contents .subpage-desc-box li {
+  margin: 0 0 60px 0;
+}
+
+.sub-contents .subpage-desc-box p {
+  padding: 0 0 0 20px;
+  margin: 0 0 16px 0;
+}
+
+.sub-contents .subpage-desc-box .desc {
+  position: relative;
+  font-size: 28px;
+  font-weight: 700;
+  color: #366d33;
+}
+
+.sub-contents .subpage-desc-box .desc::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #366d33;
+}
+
+.sub-contents .subpage-desc-box .pros-cons li {
+  display: inline-block;
+  padding: 0 60px 0 0;
+  box-sizing: border-box;
+}
+
+.sub-contents .subpage-desc-box .pros-cons div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.sub-contents .subpage-desc-box .pros-cons p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.sub-contents .subpage-desc-box .desc-area li {
+  margin: 0 0 -4px 0;
+}
+
+.sub-contents .subpage-desc-box .desc-area dl {
+  display: table;
+  border-spacing: 4px;
+  width: 100%;
+  height: 140px;
+}
+
+.sub-contents .subpage-desc-box .desc-area dt {
+  display: table-cell;
+  vertical-align: middle;
+  width: 290px;
+  height: 100%;
+  background-color: #d9d9d9;
+  box-sizing: border-box;
+}
+
+.sub-contents .subpage-desc-box .desc-area dd {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  background-color: #e6e6e6;
+}
+
+.sub-contents .subpage-desc-box .desc-area dt, dd {
+  padding: 0 20px;
+}
+
+.sub-contents .subpage-desc-box .desc-area p {
+  padding: 0;
+  margin: 0;
+}
+
+.sub-contents .subpage-desc-box .desc-area p .bg-point {
+  background-color: #366d33;
+  padding: 5px 18px;
+  margin: 0 0 0 12px;
+  border-radius: 24px;
+  color: #fff;
+}
+
+.certificate .visual .bg {
+  background-image: url('../../../image/sub/sub-visual_depth05.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  width: 100%;
+  height: 320px;
+}
+
+.certificate .subpage-desc-box {
+  padding: 0;
+}
+
+.certificate .subpage-desc-box .desc-area dd {
+  padding: 26px 32px;
+}
+
+.certificate .subpage-desc-box .desc-area .dot {
+  position: relative;
+  padding: 0 0 0 12px;
+}
+
+.certificate .subpage-desc-box .desc-area .dot::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  background-color: #366d33;
+  border-radius: 4px;
+}
+
+.certificate .subpage-desc-box .desc-area .point02 {
+  position: relative;
+  display: block;
+  color: #366d33;
+  padding: 0 0 0 24px;
+  font-weight: 500;
+}
+
+.certificate .subpage-desc-box .desc-area .point02::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('../../../image/common/check-green.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left;
+  width: 100%;
+  height: 100%;
+}
+
+.certificate .subpage-desc-box .desc-area .list-of-num {
+  line-height: 36px;
+}
+
+.certificate .subpage-desc-box .desc-area .num-circle {
+  background-color: #366d33;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  display: inline-block;
+  vertical-align: -1px;
+  text-align: center;
+  margin: 0 10px 0 0;
+  border-radius: 12px;
+  color: #fff;
+}
+
+.certificate .subpage-desc-box .desc-point {
+  border: 1px solid #d9d9d9;
+  padding: 5px 16px;
+  border-radius: 18px;
+  margin: 0 10px 0 0;
+}
+
+.certificate .subpage-desc-box .desc-point.add {
+  display: inline-block;
+  margin: 0 0 20px 20px;
+}
+
+table.table {
+  border-collapse: collapse;
+  line-height: 1.5;
+  font-size: 20px;
+  width: 100%;
+}
+
+table.table thead th {
+  padding: 40px 50px;
+  font-weight: bold;
+  border-top: 3px solid #366d33;
+  border-right: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: #366d33;
+}
+
+table.table thead th:last-child {
+  border-right: none;
+}
+
+table.table tbody th {
+  width: 180px;
+  padding: 32px 48px;
+  font-weight: bold;
+  vertical-align: top;
+  border-right: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  text-align: center;
+}
+
+table.table td {
+  width: 464px;
+  padding: 32px 48px;
+  vertical-align: top;
+  border-right: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+table.table td:last-child {
+  border-right: none;
+}
+
+table.table td.last {
+  width: 180px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 서브 페이지  - 제증명서발급안내 반응형 시작 */
+@media all and (min-width: 1320px) and (max-width: 1600px) {
+  .sub-contents .subpage .subpage-area {padding: 0 0 0 280px; position: relative;}
+  .sub-contents .subpage .text {position: absolute; font-family: Calibri sans-serif;}
+  .sub-contents .subpage .subpage-photo-img {width: 100%;}
+  .sub-contents .subpage-text-box .title {font-size: 36px; font-weight: 700; line-height: 48px; margin: 56px 0 0 0;}
+  .sub-contents .subpage-text-box .line {width: 80px; height: 6px; margin: 28px 0 0 0; background-color: #366d33;}
+  .sub-contents .subpage-text-box .desc {margin: 28px 0 0 0; font-size: 20px;}
+
+}
+
+@media all and (min-width: 1024px) and (max-width: 1319px) {
+  .sub-contents .subpage .subpage-area { padding: 0 0 0 280px; position: relative;}
+  .sub-contents .subpage .text {position: absolute; font-family: Calibri sans-serif;}
+  .sub-contents .subpage .subpage-photo-img {width: 100%;}
+  .sub-contents .subpage-text-box .title {font-size: 28px; font-weight: 700; line-height: 36px; margin: 56px 0 0 0;}
+  .sub-contents .subpage-text-box .line {width: 80px; height: 6px; margin: 28px 0 0 0; background-color: #366d33;}
+  .sub-contents .subpage-text-box .desc {margin: 28px 0 0 0; font-size: 20px;}
+
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .sub-contents .subpage .subpage-area {padding: 0; position: static;}
+  .sub-contents .subpage .text {position: static; font-family: Calibri sans-serif;}
+  .sub-contents .subpage .text br {display: none;}
+  .sub-contents .subpage .subpage-photo-img {width: 100%;}
+  .sub-contents .subpage-text-box .title {font-size: 28px; font-weight: 700; line-height: 36px; margin: 80px 0 0 0;}
+  .sub-contents .subpage-text-box .line {width: 120px; height: 6px; margin: 40px 0 0 0; background-color: #366d33;}
+  .sub-contents .subpage-text-box .desc { margin: 40px 0 0 0; font-size: 20px;}
+
+  .sub-contents .subpage-desc-box {padding: 0;}
+  .sub-contents .subpage-desc-box .pros-cons p {margin: 0;}
+
+  .hospital .visual .bg {background-size: cover; height: 480px;}
+
+  table.table {font-size: 16px;}
+  table.table thead th {padding: 28px 32px;}
+  table.table tbody th {width: 180px; padding: 24px 32px;}
+  table.table td {width: 464px; padding: 24px 32px;}
+  table.table td.last {width: 180px;}
+}
+
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .sub-contents .subpage .subpage-area {padding: 0; position: static;}
+  .sub-contents .subpage .text {position: static; font-family: Calibri sans-serif;}
+  .sub-contents .subpage .text br {display: none;}
+  .sub-contents .subpage .subpage-photo-img {width: 100%;}
+  .sub-contents .subpage-text-box .title {font-size: 20px; font-weight: 700; line-height: 28px; margin: 80px 0 0 0;}
+  .sub-contents .subpage-text-box .line {width: 120px; height: 6px; margin: 40px 0 0 0; background-color: #366d33;}
+  .sub-contents .subpage-text-box .desc { margin: 40px 0 0 0; font-size: 16px;}
+
+  .sub-contents .subpage-desc-box .pros-cons li {position: relative; height: 120px; display: block; padding: 0 0 0 100px;}
+  .sub-contents .subpage-desc-box .pros-cons div {position: absolute; display: block; top: 50%; left: 0; transform: translateY(-50%);}
+  .sub-contents .subpage-desc-box .pros-cons img {width: 80px;}
+  .sub-contents .subpage-desc-box .pros-cons p {position: absolute; top: 50%; transform: translateY(-50%); padding: 0; margin: 0;}
+  .sub-contents .subpage-desc-box .pros-cons p br {display: none;}
+  .sub-contents .subpage-desc-box {padding: 0;}
+  .sub-contents .subpage-desc-box .desc-area dt {width: 180px;}
+  .sub-contents .subpage-desc-box .desc-area p .bg-point {display: block; margin: 0 40px 0 0; text-align: center;}
+
+  .hospital .visual .bg {background-size: cover; height: 480px;}
+
+  table.table {font-size: 16px;}
+  table.table thead th {padding: 16px 24px;}
+  table.table tbody th {width: 180px; padding: 8px 12px;}
+  table.table td {width: 464px; padding: 8px 12px;}
+  table.table td.last {width: 180px;}
+}
+
+@media all and (min-width: 320px) and (max-width: 479px) {
+  .sub-contents .subpage .subpage-area {padding: 0; position: static;}
+  .sub-contents .subpage .text {position: static; font-family: Calibri sans-serif;}
+  .sub-contents .subpage .text br {display: none;}
+  .sub-contents .subpage .subpage-photo-img {width: 100%;}
+  .sub-contents .subpage-text-box .title {font-size: 20px; font-weight: 700; line-height: 28px; margin: 80px 0 0 0;}
+  .sub-contents .subpage-text-box .line {width: 120px; height: 6px; margin: 40px 0 0 0; background-color: #366d33;}
+  .sub-contents .subpage-text-box .desc { margin: 40px 0 0 0; font-size: 16px;}
+
+  .sub-contents .subpage-desc-box .pros-cons li {position: relative; height: 200px; display: block; padding: 0 0 0 100px; margin: 0;}
+  .sub-contents .subpage-desc-box .pros-cons div {position: absolute; display: block; top: 50%; left: 0; transform: translateY(-50%);}
+  .sub-contents .subpage-desc-box .pros-cons img {width: 80px;}
+  .sub-contents .subpage-desc-box .pros-cons p {position: absolute; top: 50%; transform: translateY(-50%); padding: 0; margin: 0;}
+  .sub-contents .subpage-desc-box .pros-cons p br {display: none;}
+  .sub-contents .subpage-desc-box {padding: 0;}
+  .sub-contents .subpage-desc-box .desc-area li {margin: 0 0 20px 0;}
+  .sub-contents .subpage-desc-box .desc-area dl {display: block; height: auto;}
+  .sub-contents .subpage-desc-box .desc-area dt, dd {padding: 20px;}
+  .sub-contents .subpage-desc-box .desc-area dt {display: block; width: 100%;}
+  .sub-contents .subpage-desc-box .desc-area dt {font-weight: 700;}
+  .sub-contents .subpage-desc-box .desc-area dd {display: block;}
+
+  .hospital .visual .bg {background-size: cover; height: 480px;}
+
+  table.table {font-size: 16px;}
+  table.table thead th {padding: 16px 24px;}
+  table.table tbody th {width: 180px; padding: 8px 12px;}
+  table.table td {width: 464px; padding: 8px 12px;}
+  table.table td.last {width: 180px;}
+}

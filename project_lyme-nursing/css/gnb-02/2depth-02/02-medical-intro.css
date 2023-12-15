@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+.medical-intro .visual .bg {
+  background-image: url('../../../image/sub/sub-visual_depth01.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  width: 100%;
+  height: 320px;
+}
+
+.medical-intro .profile {
+  position: relative;
+  padding: 120px 0 0 0;
+}
+
+.medical-intro .profile .img-title {
+  position: absolute;
+  right: 0;
+  bottom: -28px;
+  left: 0;
+  text-align: center;
+}
+
+.medical-intro .profile-text-box {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0 0 0 640px;
+  box-sizing: border-box;
+}
+
+.medical-intro .profile-text-box .title {
+  display: block;
+  font-size: 48px;
+  margin: 0 0 60px 0;
+  font-family: 'GyeonggiBatang_Batang_Regular';
+  font-weight: 400;
+}
+
+.medical-intro .profile-text-box .title-point {
+  display: block;
+  font-size: 32px;
+}
+
+.medical-intro .profile-experience::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.medical-intro .profile-experience .education {
+  float: left;
+  width: 50%;
+}
+
+.medical-intro .profile-experience .education li {
+  font-size: 20px;
+  margin: 0 0 6px 0;
+}
+
+.medical-intro .profile-experience .career {
+  float: left;
+  width: 50%;
+}
+
+.medical-intro .profile-experience .career li {
+  font-size: 20px;
+  margin: 0 0 6px 0;
+}
+
+.medical-intro .profile.change .img {
+  text-align: right;
+}
+
+.medical-intro .profile.change .profile-text-box {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0 640px 0 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+/* 서브 페이지  - 의료진 소개 반응형 시작 */
+@media all and (min-width: 1320px) and (max-width: 1600px) {
+  .header {height: 100px;}
+  .header .gnb {float: none; display: none;}
+  .header .logo img {height: 100px;}
+
+  .medical-intro .profile-text-box {padding: 0 0 0 580px;}
+}
+  
+@media all and (min-width: 1024px) and (max-width: 1319px) {
+  .header {height: 100px;}
+  .header .gnb {float: none; display: none;}
+  .header .logo img {height: 100px;}
+
+  .medical-intro .profile {position: relative; padding: 120px 0 0 0;}
+  .medical-intro .profile .img-title {position: absolute; right: 0; bottom: -28px; left: 0; text-align: center; padding: 0 240px; box-sizing: border-box;}
+  .medical-intro .profile .img-title img {width: 100%;}
+  .medical-intro .profile-text-box {padding: 0 0 0 580px;}
+  .medical-intro .profile-experience::after {content: none;}
+  .medical-intro .profile-experience .education {float: none; width: 100%; margin: 0 0 20px 0;}
+  .medical-intro .profile-experience .career {float: none; width: 100%;}
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .header {height: 100px;}
+  .header .gnb {float: none; display: none;}
+  .header .logo img {height: 100px;}
+
+  .medical-intro .visual .bg {background-size: cover; height: 480px;}
+
+  .medical-intro .profile {position: static; padding: 120px 0 0 0;}
+  .medical-intro .profile .img img {width: 100%;}
+  .medical-intro .profile .img-title {position: static; right: 0; bottom: -28px; left: 0; padding: 0;}
+  .medical-intro .profile .img-title img {width: 100%;}
+  .medical-intro .profile-text-box {position: static; width: 100%; height: 100%; padding: 40px 0 0 0; margin: 0 auto; }
+  .medical-intro .profile-text-box .title {font-size: 48px;}
+  .medical-intro .profile-text-box .title-point {font-size: 32px;}
+  .medical-intro .profile-experience::after {content: none;}
+  .medical-intro .profile-experience .education {float: none; width: 100%; margin: 0 0 20px 0;}
+  .medical-intro .profile-experience .education li {font-size: 20px; margin: 0 0 6px 0;}
+  .medical-intro .profile-experience .career {float: none; width: 100%;}
+  .medical-intro .profile-experience .career li {font-size: 20px; margin: 0 0 6px 0;}
+  .medical-intro .profile.change .img {text-align: initial;}
+  .medical-intro .profile.change .profile-text-box {position: static; width: 100%; height: 100%; padding: 40px 0 0 0; margin: 0 auto;}
+}
+
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .header {height: 80px;}
+  .header .gnb {float: none; display: none;}
+  .header .logo img {height: 80px;}
+
+  .medical-intro .visual .bg {background-size: cover; height: 480px;}
+
+  .medical-intro .profile {position: static; padding: 120px 0 0 0;}
+  .medical-intro .profile .img img {width: 100%;}
+  .medical-intro .profile .img-title {position: static; right: 0; bottom: -28px; left: 0; padding: 0;}
+  .medical-intro .profile .img-title img {width: 100%;}
+  .medical-intro .profile-text-box {position: static; width: 100%; height: 100%; padding: 40px 0 0 0; margin: 0 auto; }
+  .medical-intro .profile-text-box .title {font-size: 32px;}
+  .medical-intro .profile-text-box .title-point {font-size: 28px;}
+  .medical-intro .profile-experience::after {content: none;}
+  .medical-intro .profile-experience .education {float: none; width: 100%; margin: 0 0 20px 0;}
+  .medical-intro .profile-experience .education li {font-size: 20px; margin: 0 0 6px 0;}
+  .medical-intro .profile-experience .career {float: none; width: 100%;}
+  .medical-intro .profile-experience .career li {font-size: 20px; margin: 0 0 6px 0;}
+  .medical-intro .profile.change .img {text-align: initial;}
+  .medical-intro .profile.change .profile-text-box {position: static; width: 100%; height: 100%; padding: 40px 0 0 0; margin: 0 auto;}
+}
+
+@media all and (min-width: 320px) and (max-width: 479px) {
+  .header {height: 80px;}
+  .header .gnb {float: none; display: none;}
+  .header .logo img {height: 80px;}
+
+  .medical-intro .visual .bg {background-size: cover; height: 480px;}
+  
+  .medical-intro .profile {position: static; padding: 120px 0 0 0;}
+  .medical-intro .profile .img img {width: 100%;}
+  .medical-intro .profile .img-title {position: static; right: 0; bottom: -28px; left: 0; padding: 0;}
+  .medical-intro .profile .img-title img {width: 100%;}
+  .medical-intro .profile-text-box {position: static; width: 100%; height: 100%; padding: 40px 0 0 0; margin: 0 auto; }
+  .medical-intro .profile-text-box .title {font-size: 32px;}
+  .medical-intro .profile-text-box .title-point {font-size: 28px;}
+  .medical-intro .profile-experience::after {content: none;}
+  .medical-intro .profile-experience .education {float: none; width: 100%; margin: 0 0 20px 0;}
+  .medical-intro .profile-experience .education li {font-size: 20px; margin: 0 0 6px 0;}
+  .medical-intro .profile-experience .career {float: none; width: 100%;}
+  .medical-intro .profile-experience .career li {font-size: 20px; margin: 0 0 6px 0;}
+  .medical-intro .profile.change .img {text-align: initial;}
+  .medical-intro .profile.change .profile-text-box {position: static; width: 100%; height: 100%; padding: 40px 0 0 0; margin: 0 auto;}
+}

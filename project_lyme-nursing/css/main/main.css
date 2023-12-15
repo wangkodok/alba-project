@@ -1,0 +1,917 @@
+@charset "utf-8";
+
+.main .visual .bg {
+  background-image: url('../../image/main/main-visual-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  background-color: #6eb92b;
+  width: 100%;
+  height: 610px;
+}
+
+.main .visual-control {
+  position: absolute;
+  width: 100%;
+  bottom: 100px;
+  border-top: 1px solid #9ace6b;
+  box-sizing: border-box;
+  z-index: 100;
+  font-size: 0;
+}
+
+.main .visual-control .num {
+  width: 64px;
+  font-size: 20px;
+  text-align: left;
+  position: relative;
+  color: #fff;
+  padding: 6px 0 0 0;
+}
+
+.main .visual-control .num.on {
+  
+}
+
+.main .visual-control .num.on::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #fff;
+}
+
+
+.main .msi {
+  overflow: hidden;
+}
+
+.main .msi .contents {
+  padding: 100px 0;
+}
+
+.main .placard {
+  position: relative;
+  height: 720px;
+}
+
+.main .placard .clp {
+  position: absolute;
+  top: 140px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  /* height: 100%; */
+  /* transform: translateY(-50%); */
+}
+
+.main .placard .list {
+  position: relative;
+  height: 100%;
+}
+
+.main .placard .item {
+  /* position: relative; */
+  /* width: 100%; */
+  width: 368px;
+  /* margin: -1px 0 0 0; */
+  margin: -1px 0 auto auto;
+}
+
+.main .placard .link {
+  width: 308px;
+  margin: 0 0 auto auto;
+}
+
+.main .placard-name {
+  height: 80px;
+  text-align: right;
+  padding: 0 40px;
+  border: 1px solid #e3e3e3;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.main .placard-name .arr {
+  background-image: url('../../image/common/arr.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 22px;
+  height: 17px;
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  transform: translate(0, -50%);
+}
+
+.main .placard-name .title {
+  font-size: 24px;
+  color: #959595;
+  line-height: 80px;
+}
+
+.main .placard .item.on .link {
+  width: auto;
+  margin: 0;
+}
+
+.main .placard .item.on .placard-name {
+  background-color: #366d33;
+  width: 368px;
+  height: 80px;
+  text-align: right;
+  padding: 0 40px;
+  box-sizing: border-box;
+  background-image: url('../../image/common/contents-mark.png');
+  background-repeat: no-repeat;
+  background-size: 156px;
+  background-position: -45px 26px;
+  position: relative;
+}
+
+.main .placard .item.on .placard-name .arr {
+  background-image: url('../../image/common/arr-green.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 22px;
+  height: 17px;
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  transform: translate(0, -50%);
+}
+
+.main .placard .item.on .placard-name .title {
+  font-size: 30px;
+  color: #fff;
+  line-height: 80px;
+}
+
+.main .profile {
+  position: absolute;
+  top: -26px;
+  left: 0;
+  display: none;
+}
+
+.main .placard .item.on .profile {
+  display: block;
+}
+
+.main .profile .img {
+  float: left;
+}
+
+.main .profile .img img {
+  width: 100%;
+}
+
+.main .profile-text-box {
+  float: left;
+  margin: 0 0 0 72px;
+}
+
+.main .profile-text-box .title {
+  display: block;
+  font-size: 30px;
+  margin: 0 0 20px 0;
+  font-family: 'GyeonggiBatang_Batang_Regular';
+  font-weight: 700;
+  color: #366d33;
+}
+
+.main .profile-text-box .title-point {
+  display: block;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+}
+
+.main .profile-experience .education li {
+  font-size: 20px;
+  color: #959595;
+}
+
+.main .profile-experience .career li {
+  font-size: 20px;
+  color: #959595;
+}
+
+.main .profile .img-title {
+  position: absolute;
+  left: 0;
+  bottom: 60px;
+  padding: 0 0 0 280px;
+  z-index: -1;
+}
+
+.main .ft {
+  position: relative;
+  height: 880px;
+  overflow: hidden;
+}
+
+.main .ft .bg {
+  background-image: url('../../image/main/main-ft-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 1020px;
+}
+
+.main .ft .contents {
+  position: relative;
+  padding: 100px 0;
+}
+
+.main .ft-slide {
+  padding: 120px 0 0 0;
+}
+
+.main .ft-slide .control {
+  position: absolute;
+  top: calc(50% + 20px);
+  left: 0;
+  right: 0;
+  max-width: 1720px;
+  margin: 0 auto;
+  height: 56px;
+  transform: translateY(-50%);
+}
+
+.main .ft-slide .control button {
+  background-image: url('../../image/main/main-ft-arr.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  width: 56px;
+  height: 100%;
+}
+
+.main .ft-slide .control .next {
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.main .ft-slide .control .prev {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  transform: translateY(-50%) rotate(0deg);
+}
+
+.main .ft-slide ul::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.main .ft-slide .item {
+  float: left;
+  width: calc(33.33% - 40px);
+  margin: 20px;
+}
+
+.main .ft-slide img {
+  width: 100%;
+}
+
+.main .ft-slide .txt-box {
+  margin: 36px 0 0 0;
+}
+
+.main .ft-slide .tit {
+  display: block;
+  font-size: 30px;
+  font-family: 'GyeonggiBatang_Batang_Regular';
+  font-weight: 700;
+  color: #366d33;
+  line-height: 1;
+  margin: 0 0 12px 0;
+}
+
+.main .ft-slide .tit-desc {
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  white-space: normal;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.main .wtc .contents {
+  padding: 100px 0;
+}
+
+.main .wtc .info-wrap {
+  position: relative;
+  display: block;
+  padding: 60px 0;
+  background-image: url('../../image/main/main-contents-line.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 50% 60%;
+  background-color: #6eb92b;
+}
+
+.main .wtc-traffic {
+  font-size: 0;
+  padding: 0 196px 60px 196px;
+  box-sizing: border-box;
+}
+
+.main .wtc-traffic .box-address {
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+
+.main .wtc-traffic .box-address .icon {
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url('../../image/common/contents-icon.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 0 0;
+  width: 52px;
+  height: 52px;
+}
+
+.main .wtc-traffic .box-address .desc {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 0 20px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.main .wtc-traffic .box-bus {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+}
+
+.main .wtc-traffic .box-bus .icon {
+  display: inline-block;
+  vertical-align: top;
+  background-image: url('../../image/common/contents-icon.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 0 -97px;
+  width: 52px;
+  height: 52px;
+}
+
+.main .wtc-traffic .box-bus .info {
+  width: 438px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  margin: 0 0 0 20px;
+}
+
+.main .wtc-traffic .box-bus dl {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  font-size: 20px;
+  color: #fff;
+}
+
+.main .wtc-traffic .box-bus dt {
+  display: inline-block;
+}
+
+.main .wtc-traffic .box-bus dd {
+  display: inline-block;
+}
+
+.main .wtc-traffic .box-bus p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.main .wtc-traffic .box-subway {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+}
+
+.main .wtc-traffic .box-subway .icon {
+  display: inline-block;
+  vertical-align: top;
+  background-image: url('../../image/common/contents-icon.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 0 -195px;
+  width: 52px;
+  height: 52px;
+}
+
+.main .wtc-traffic .box-subway .info {
+  width: 438px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  margin: 0 0 0 20px;
+}
+
+.main .wtc-traffic .box-subway dl {
+  font-size: 20px;
+  color: #fff;
+}
+
+.main .wtc-traffic .box-subway dt {
+  display: inline-block;
+}
+
+.main .wtc-traffic .box-subway dd {
+  display: inline-block;
+}
+
+.main .wtc-info {
+  padding: 68px 0 0 0;
+  font-size: 0;
+}
+
+.main .wtc-info .hosp-time {
+  width: 33.33%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+}
+
+.main .wtc-info .hosp-time .tit {
+  display: block;
+  margin: 0 0 24px 0;
+  font-size: 36px;
+  font-family: 'GyeonggiBatang_Batang_Regular';
+  font-weight: 700;
+  color: #366d33;
+}
+
+.main .wtc-info .hosp-time .icon {
+  display: inline-block;
+  vertical-align: top;
+  background-image: url('../../image/common/contents-icon.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 0 -292px;
+  width: 52px;
+  height: 52px;
+}
+
+.main .wtc-info .hosp-time .info {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 0 32px;
+}
+
+.main .wtc-info .hosp-time dl {
+  text-align: left;
+  line-height: 1;
+  margin: 0 0 6px 0;
+}
+
+.main .wtc-info .hosp-time dt {
+  display: inline-block;
+  vertical-align: middle;
+  width: 72px;
+  font-size: 16px;
+  color: #eae6dd;
+}
+
+.main .wtc-info .hosp-time dd {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 20px;
+  color: #fff;
+}
+
+.main .wtc-info .contact {
+  width: 33.33%;
+  display: inline-block;
+  padding: 0 0 0 60px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.main .wtc-info .contact .tit {
+  display: block;
+  font-size: 36px;
+  font-family: 'GyeonggiBatang_Batang_Regular';
+  font-weight: 700;
+  color: #366d33;
+}
+
+.main .wtc-info .contact .phone-num {
+  display: block;
+  color: #fff;
+  font-size: 36px;
+}
+
+.main .wtc-info .consul {
+  width: 33.33%;
+  display: inline-block;
+  padding: 0 0 0 60px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.main .wtc-info .consul .tit {
+  display: block;
+  margin: 0 0 20px 0;
+  font-size: 36px;
+  font-family: 'GyeonggiBatang_Batang_Regular';
+  font-weight: 700;
+  color: #366d33;
+}
+
+.main .wtc-info .consul .more {
+  position: relative;
+  display: inline-block;
+  font-size: 24px;
+  font-family: 'GyeonggiBatang_Batang_Regular';
+  color: #fff;
+  padding: 0 40px 0 0;
+}
+
+.main .wtc-info .consul .more::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translate(0, -50%);
+  transition: all 0.5s ease;
+  background-image: url('../../image/main/arr-white.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 21px;
+  height: 16px;
+}
+
+.main .wtc-info .consul .more:hover::after {
+  right: 3px;
+}
+
+.main .wtc-map-more {
+  position: absolute;
+  right: 50px;
+  bottom: -50px;
+}
+
+.main .wtc-map-more .placard-name {
+  background-color: #366d33;
+  width: 460px;
+  height: 100px;
+  text-align: left;
+  padding: 0 40px;
+  border: none;
+  box-sizing: border-box;
+  background-image: url('../../image/common/contents-mark.png');
+  background-repeat: no-repeat;
+  background-size: 197px;
+  background-position: 242px 31px;
+  position: relative;
+}
+
+.main .wtc-map-more  .placard-name .arr {
+  background-image: url('../../image/common/arr-green.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 22px;
+  height: 17px;
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  left: auto;
+  transform: translate(0, -50%) rotate(180deg);
+}
+
+.main .wtc-map-more .placard-name .title {
+  font-size: 30px;
+  color: #fff;
+  line-height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+/* 메인 페이지  - 메인 반응형 시작 */
+@media all and (min-width: 1320px) and (max-width: 1600px) {
+  .header {height: 100px;}
+  .header .gnb {float: none; display: none;}
+  .header .logo img {height: 100px;}
+
+  /* 오시는 길 */
+  .main .wtc .contents {padding: 100px 0;}
+  .main .wtc .info-wrap {position: relative;padding: 60px 40px;background-image: none;}
+  .main .wtc-traffic {padding: 40px 0 0 0; box-sizing: initial;}
+  .main .wtc-traffic .box-address {text-align: initial; margin: 0 0 20px 0;}
+  .main .wtc-traffic .box-address .icon {background-size: 36px; background-position: 0 0; width: 36px; height: 36px;}
+  .main .wtc-traffic .box-address .desc {margin: 0 0 0 8px; font-size: 28px;}
+  .main .wtc-traffic .box-bus {width: auto; display: block; margin: 0 0 20px 0; text-align: initial;}
+  .main .wtc-traffic .box-bus .icon {display: inline-block; background-size: 36px; background-position: 0 -67px; width: 36px; height: 36px;}
+  .main .wtc-traffic .box-bus .info {width: auto; display: inline-block; text-align: initial; margin: 0 0 0 8px;}
+  .main .wtc-traffic .box-bus dl {display: inline-block; margin: 0 32px 0 0; font-size: 28px;}
+  .main .wtc-traffic .box-bus p {font-size: 28px;}
+  .main .wtc-traffic .box-subway {width: auto; display: initial; text-align: initial;}
+  .main .wtc-traffic .box-subway .icon {display: inline-block; background-size: 36px; background-position: 0 -135px; width: 36px; height: 36px;}
+  .main .wtc-traffic .box-subway .info {width: auto; display: inline-block; text-align: initial; margin: 0 0 0 8px;}
+  .main .wtc-traffic .box-subway dl {font-size: 28px;}
+  .main .wtc-info {padding: 68px 0 0 0;}
+  .main .wtc-info .hosp-time {width: auto; display: block; margin: 0 0 20px 0; text-align: initial;}
+  .main .wtc-info .hosp-time .tit {margin: 0 0 12px 0; font-size: 28px;}
+  .main .wtc-info .hosp-time .icon {display: inline-block; background-size: 36px; background-position: 0 -202px; width: 36px; height: 36px;}
+  .main .wtc-info .hosp-time .info {display: inline-block; vertical-align: middle; margin: 0 0 0 8px;}
+  .main .wtc-info .hosp-time dl {text-align: initial; line-height: initial; margin: 0 0 6px 0;}
+  .main .wtc-info .hosp-time dt {display: inline-block; margin: 0 16px 0 0; vertical-align: middle; width: auto; font-size: 28px; color: #eae6dd;}
+  .main .wtc-info .hosp-time dd {display: inline-block; vertical-align: middle; font-size: 28px;}
+  .main .wtc-info .contact {width: auto; display: block; margin: 0 0 20px 0; padding: 0; box-sizing: initial;}
+  .main .wtc-info .contact .tit {display: block; font-size: 28px;}
+  .main .wtc-info .contact .phone-num {display: block; color: #fff; font-size: 28px;}
+  .main .wtc-info .consul {width: auto; display: block; padding: 0; box-sizing: initial;}
+  .main .wtc-info .consul .tit {display: block; margin: 0; font-size: 28px;}
+  .main .wtc-info .consul .more {position: relative; display: inline-block; font-size: 28px; padding: 0 40px 0 0;}
+}
+  
+@media all and (min-width: 1024px) and (max-width: 1319px) {
+  .header {height: 100px;}
+  .header .gnb {float: none; display: none;}
+  .header .logo img {height: 100px;}
+
+  /* 인트로 */
+  .main .placard {position: relative; height: 480px;}
+  .main .profile .img {width: 340px; float: left;}
+  .main .profile .img img {width: 100%;}
+  .main .profile-text-box {float: left; margin: 0 0 0 32px;}
+  .main .profile .img-title {display: none;}
+
+  /* 시설 둘러보기 */
+  /* .main .ft {height: 800px;} */
+
+  /* 오시는 길 */
+  .main .wtc .contents {padding: 100px 0;}
+  .main .wtc .info-wrap {position: relative;padding: 60px 40px;background-image: none;}
+  .main .wtc-traffic {padding: 40px 0 0 0; box-sizing: initial;}
+  .main .wtc-traffic .box-address {text-align: initial; margin: 0 0 20px 0;}
+  .main .wtc-traffic .box-address .icon {background-size: 36px; background-position: 0 0; width: 36px; height: 36px;}
+  .main .wtc-traffic .box-address .desc {margin: 0 0 0 8px; font-size: 20px;}
+  .main .wtc-traffic .box-bus {width: auto; display: block; margin: 0 0 20px 0; text-align: initial;}
+  .main .wtc-traffic .box-bus .icon {display: inline-block; background-size: 36px; background-position: 0 -67px; width: 36px; height: 36px;}
+  .main .wtc-traffic .box-bus .info {width: auto; display: inline-block; text-align: initial; margin: 0 0 0 8px;}
+  .main .wtc-traffic .box-bus dl {display: inline-block; margin: 0 32px 0 0; font-size: 20px;}
+  .main .wtc-traffic .box-bus p {font-size: 20px;}
+  .main .wtc-traffic .box-subway {width: auto; display: initial; text-align: initial;}
+  .main .wtc-traffic .box-subway .icon {display: inline-block; background-size: 36px; background-position: 0 -135px; width: 36px; height: 36px;}
+  .main .wtc-traffic .box-subway .info {width: auto; display: inline-block; text-align: initial; margin: 0 0 0 8px;}
+  .main .wtc-traffic .box-subway dl {font-size: 20px;}
+  .main .wtc-info {padding: 68px 0 0 0;}
+  .main .wtc-info .hosp-time {width: auto; display: block; margin: 0 0 20px 0; text-align: initial;}
+  .main .wtc-info .hosp-time .tit {margin: 0 0 12px 0; font-size: 20px;}
+  .main .wtc-info .hosp-time .icon {display: inline-block; background-size: 36px; background-position: 0 -202px; width: 36px; height: 36px;}
+  .main .wtc-info .hosp-time .info {display: inline-block; vertical-align: middle; margin: 0 0 0 8px;}
+  .main .wtc-info .hosp-time dl {text-align: initial; line-height: initial; margin: 0 0 6px 0;}
+  .main .wtc-info .hosp-time dt {display: inline-block; margin: 0 16px 0 0; vertical-align: middle; width: auto; font-size: 20px; color: #eae6dd;}
+  .main .wtc-info .hosp-time dd {display: inline-block; vertical-align: middle; font-size: 20px;}
+  .main .wtc-info .contact {width: auto; display: block; margin: 0 0 20px 0; padding: 0; box-sizing: initial;}
+  .main .wtc-info .contact .tit {display: block; font-size: 20px;}
+  .main .wtc-info .contact .phone-num {display: block; color: #fff; font-size: 20px;}
+  .main .wtc-info .consul {width: auto; display: block; padding: 0; box-sizing: initial;}
+  .main .wtc-info .consul .tit {display: block; margin: 0; font-size: 20px;}
+  .main .wtc-info .consul .more {position: relative; display: inline-block; font-size: 20px; padding: 0 40px 0 0;}
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .header {height: 100px;}
+  .header .gnb {float: none; display: none;}
+  .header .logo img {height: 100px;}
+
+  .main .visual .bg {background-size: cover; height: 480px;}
+
+  /* 인트로 */
+  .main .msi .contents {padding: 80px 0;}
+  .main .placard {position: static; height: 600px; margin: 40px 0 0 0;}
+  .main .placard .clp {position: static; top: 140px; right: 0; left: 0; height: 100%;}
+  .main .placard .list {position: relative; height: 100%;}
+  .main .placard .item {float: left; width: 25%; margin: 0 0 0 -1px;}
+  .main .placard .link {width: auto; margin: 0;}
+  .main .placard-name {height: 64px; text-align: center; padding: 0; box-sizing: border-box; position: static;}
+  .main .placard-name .arr {display: none;}
+  .main .placard-name .title {font-size: 20px; line-height: 64px;}
+
+  /* 인트로 on 활성화 */
+  .main .placard .item.on .link {width: auto; margin: 0;}
+  .main .placard .item.on .placard-name {width: auto; height: 64px; text-align: center; padding: 0; box-sizing: border-box; background-size: 50%; background-position: -35px 26px; position: static;}
+  .main .placard .item.on .placard-name .arr {display: none;}
+  .main .placard .item.on .placard-name .title {font-size: 20px; line-height: 64px;}
+
+  /* 인트로 프로필 */
+  .main .profile {position: absolute; top: 140px; left: 0; width: 100%;}
+  .main .profile .img {position: relative; float: left; padding: 0 420px 0 0; box-sizing: border-box;}
+  .main .profile .img img {width: 100%;}
+  .main .profile-text-box {position: absolute; top: 0; right: 80px; float: right; margin: 0;}
+  .main .profile-text-box .title {display: block; font-size: 30px; margin: 0 0 20px 0; font-family: 'GyeonggiBatang_Batang_Regular'; font-weight: 700; color: #366d33;}
+  .main .profile-text-box .title-point {display: block; font-size: 24px; font-weight: 500; color: #000;}
+  .main .profile-experience .education li {font-size: 20px; color: #959595;}
+  .main .profile-experience .career li {font-size: 20px; color: #959595;}
+  .main .profile .img-title {display: none;}
+
+  /* 시설 둘러보기 */
+  /* .main .ft {height: 720px;} */
+
+  /* 오시는 길 */
+  .main .wtc .contents {padding: 100px 0;}
+  .main .wtc .info-wrap {position: relative;padding: 60px 40px;background-image: none;}
+  .main .wtc-traffic {padding: 40px 0 0 0; box-sizing: initial;}
+  .main .wtc-traffic .box-address {text-align: initial; margin: 0 0 20px 0;}
+  .main .wtc-traffic .box-address .icon {background-size: 36px; background-position: 0 0; width: 36px; height: 36px;}
+  .main .wtc-traffic .box-address .desc {margin: 0 0 0 8px; font-size: 20px;}
+  .main .wtc-traffic .box-bus {width: auto; display: block; margin: 0 0 20px 0; text-align: initial;}
+  .main .wtc-traffic .box-bus .icon {display: inline-block; background-size: 36px; background-position: 0 -67px; width: 36px; height: 36px;}
+  .main .wtc-traffic .box-bus .info {width: 500px; display: inline-block; text-align: initial; margin: 0 0 0 8px;}
+  .main .wtc-traffic .box-bus dl {display: inline-block; margin: 0 16px 0 0; font-size: 20px;}
+  .main .wtc-traffic .box-bus p {font-size: 20px;}
+  .main .wtc-traffic .box-subway {width: auto; display: initial; text-align: initial;}
+  .main .wtc-traffic .box-subway .icon {display: inline-block; background-size: 36px; background-position: 0 -135px; width: 36px; height: 36px;}
+  .main .wtc-traffic .box-subway .info {width: auto; display: inline-block; text-align: initial; margin: 0 0 0 8px;}
+  .main .wtc-traffic .box-subway dl {font-size: 20px;}
+  .main .wtc-info {padding: 68px 0 0 0;}
+  .main .wtc-info .hosp-time {width: auto; display: block; margin: 0 0 20px 0; text-align: initial;}
+  .main .wtc-info .hosp-time .tit {margin: 0 0 12px 0; font-size: 20px;}
+  .main .wtc-info .hosp-time .icon {display: inline-block; background-size: 36px; background-position: 0 -202px; width: 36px; height: 36px;}
+  .main .wtc-info .hosp-time .info {display: inline-block; vertical-align: middle; margin: 0 0 0 8px;}
+  .main .wtc-info .hosp-time dl {text-align: initial; line-height: initial; margin: 0 0 6px 0;}
+  .main .wtc-info .hosp-time dt {display: inline-block; margin: 0 16px 0 0; vertical-align: middle; width: auto; font-size: 20px; color: #eae6dd;}
+  .main .wtc-info .hosp-time dd {display: inline-block; vertical-align: middle; font-size: 20px;}
+  .main .wtc-info .contact {width: auto; display: block; margin: 0 0 20px 0; padding: 0; box-sizing: initial;}
+  .main .wtc-info .contact .tit {display: block; font-size: 20px;}
+  .main .wtc-info .contact .phone-num {display: block; color: #fff; font-size: 20px;}
+  .main .wtc-info .consul {width: auto; display: block; padding: 0; box-sizing: initial;}
+  .main .wtc-info .consul .tit {display: block; margin: 0; font-size: 20px;}
+  .main .wtc-info .consul .more {position: relative; display: inline-block; font-size: 20px; padding: 0 40px 0 0;}
+  .main .wtc-map-more {position: absolute; right: 0; left: 0; bottom: -50px;}
+  .main .wtc-map-more .placard-name {width: 100%; height: 64px; text-align: initial; background-size: 197px; background-position: right top;}
+  .main .wtc-map-more .placard-name .title {font-size: 20px; line-height: 64px;}
+}
+
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .header {height: 80px;}
+  .header .gnb {float: none; display: none;}
+  .header .logo img {height: 80px;}
+
+  .main .visual .bg {background-size: cover; height: 480px;}
+  .main .visual-control {bottom: 140px;}
+
+  /* 인트로 */
+  .main .msi .contents {padding: 80px 0;}
+  .main .placard {position: static;height: 100%;margin: 40px 0 0 0;}
+  .main .placard .clp {position: static; top: 140px; right: 0; left: 0; height: 100%;}
+  .main .placard .list {position: relative; height: 100%;}
+  .main .placard .item {float: none;width: 100%;margin: -1px 0 0 0;}
+  .main .placard .link {width: auto; margin: 0;}
+  .main .placard-name {height: 64px; text-align: center; padding: 0; box-sizing: border-box; position: static;}
+  .main .placard-name .arr {display: none;}
+  .main .placard-name .title {font-size: 20px; line-height: 64px;}
+
+  /* 인트로 on 활성화 */
+  .main .placard .item.on .link {width: auto; margin: 0;}
+  .main .placard .item.on .placard-name {width: auto; height: 64px; text-align: center; padding: 0; box-sizing: border-box; background-size: 50%; background-position: -35px 26px; position: static;}
+  .main .placard .item.on .placard-name .arr {display: none;}
+  .main .placard .item.on .placard-name .title {font-size: 20px; line-height: 64px;}
+
+  /* 인트로 프로필 */
+  .main .profile {position: static;top: auto;left: auto;width: 100%;height: 100%;padding: 32px 0;}
+  .main .profile .img {position: static;float: none;padding: 0;box-sizing: border-box;}
+  .main .profile .img img {width: 100%;}
+  .main .profile-text-box {position: static;top: 0;right: 0;float: none;margin: 32px 0 0 0;}
+  .main .profile-text-box .title {display: inline-block;font-size: 24px;margin: 0 0 16px 0;font-family: 'GyeonggiBatang_Batang_Regular';font-weight: 700;color: #000;}
+  .main .profile-text-box .title-point {display: inline-block;font-size: 24px;font-weight: 700;color: #000;margin: 0 6px 0 0;}
+  .main .profile-experience .education li {font-size: 16px;color: #959595;}
+  .main .profile-experience .career li {font-size: 16px;color: #959595;}
+  .main .profile .img-title {display: none;}
+
+  /* 시설 둘러보기 */
+  /* .main .ft {height: 680px;} */
+
+  /* 오시는 길 */
+  .main .wtc .contents {padding: 100px 0;}
+  .main .wtc .info-wrap {position: relative;padding: 60px 40px;background-image: none;}
+  .main .wtc-traffic {padding: 40px 0 0 0; box-sizing: initial;}
+  .main .wtc-traffic .box-address {text-align: initial; margin: 0 0 20px 0;}
+  .main .wtc-traffic .box-address .icon {background-size: 36px; background-position: 0 0; width: 36px; height: 36px;}
+  .main .wtc-traffic .box-address .desc {margin: 0 0 0 8px; font-size: 16px;}
+  .main .wtc-traffic .box-bus {width: auto; display: block; margin: 0 0 20px 0; text-align: initial;}
+  .main .wtc-traffic .box-bus .icon {display: inline-block; background-size: 36px; background-position: 0 -67px; width: 36px; height: 36px;}
+  .main .wtc-traffic .box-bus .info {width: 320px; display: inline-block; text-align: initial; margin: 0 0 0 8px;}
+  .main .wtc-traffic .box-bus dl {display: inline-block; margin: 0 16px 0 0; font-size: 16px;}
+  .main .wtc-traffic .box-bus p {font-size: 16px;}
+  .main .wtc-traffic .box-subway {width: auto; display: initial; text-align: initial;}
+  .main .wtc-traffic .box-subway .icon {display: inline-block; background-size: 36px; background-position: 0 -135px; width: 36px; height: 36px;}
+  .main .wtc-traffic .box-subway .info {width: auto; display: inline-block; text-align: initial; margin: 0 0 0 8px;}
+  .main .wtc-traffic .box-subway dl {font-size: 16px;}
+  .main .wtc-info {padding: 68px 0 0 0;}
+  .main .wtc-info .hosp-time {width: auto; display: block; margin: 0 0 20px 0; text-align: initial;}
+  .main .wtc-info .hosp-time .tit {margin: 0 0 12px 0; font-size: 16px;}
+  .main .wtc-info .hosp-time .icon {display: inline-block; background-size: 36px; background-position: 0 -202px; width: 36px; height: 36px;}
+  .main .wtc-info .hosp-time .info {display: inline-block; vertical-align: middle; margin: 0 0 0 8px;}
+  .main .wtc-info .hosp-time dl {text-align: initial; line-height: initial; margin: 0 0 6px 0;}
+  .main .wtc-info .hosp-time dt {display: inline-block; margin: 0 16px 0 0; vertical-align: middle; width: auto; font-size: 16px; color: #eae6dd;}
+  .main .wtc-info .hosp-time dd {display: inline-block; vertical-align: middle; font-size: 16px;}
+  .main .wtc-info .contact {width: auto; display: block; margin: 0 0 20px 0; padding: 0; box-sizing: initial;}
+  .main .wtc-info .contact .tit {display: block; font-size: 16px;}
+  .main .wtc-info .contact .phone-num {display: block; color: #fff; font-size: 16px;}
+  .main .wtc-info .consul {width: auto; display: block; padding: 0; box-sizing: initial;}
+  .main .wtc-info .consul .tit {display: block; margin: 0; font-size: 16px;}
+  .main .wtc-info .consul .more {position: relative; display: inline-block; font-size: 16px; padding: 0 40px 0 0;}
+  .main .wtc-map-more {position: absolute; right: 0; left: 0; bottom: -50px;}
+  .main .wtc-map-more .placard-name {width: 100%; height: 64px; text-align: initial; background-size: 197px; background-position: right top;}
+  .main .wtc-map-more .placard-name .title {font-size: 20px; line-height: 64px;}
+}
+
+@media all and (min-width: 320px) and (max-width: 479px) {
+  .header {height: 80px;}
+  .header .gnb {float: none; display: none;}
+  .header .logo img {height: 80px;}
+
+  .main .visual-control {bottom: 160px;}
+  .main .visual .bg {background-size: cover; height: 480px;}
+  
+  /* 인트로 */
+  .main .msi .contents {padding: 80px 0;}
+  .main .placard {position: static;height: 100%;margin: 40px 0 0 0;}
+  .main .placard .clp {position: static; top: 140px; right: 0; left: 0; height: 100%;}
+  .main .placard .list {position: relative; height: 100%;}
+  .main .placard .item {float: none;width: 100%;margin: -1px 0 0 0;}
+  .main .placard .link {width: auto; margin: 0;}
+  .main .placard-name {height: 64px; text-align: center; padding: 0; box-sizing: border-box; position: static;}
+  .main .placard-name .arr {display: none;}
+  .main .placard-name .title {font-size: 20px; line-height: 64px;}
+
+  /* 인트로 on 활성화 */
+  .main .placard .item.on .link {width: auto; margin: 0;}
+  .main .placard .item.on .placard-name {width: auto; height: 64px; text-align: center; padding: 0; box-sizing: border-box; background-size: 50%; background-position: -35px 26px; position: static;}
+  .main .placard .item.on .placard-name .arr {display: none;}
+  .main .placard .item.on .placard-name .title {font-size: 20px; line-height: 64px;}
+
+  /* 인트로 프로필 */
+  .main .profile {position: static;top: auto;left: auto;width: 100%;height: 100%;padding: 32px 0;}
+  .main .profile .img {position: static;float: none;padding: 0;box-sizing: border-box;}
+  .main .profile .img img {width: 100%;}
+  .main .profile-text-box {position: static;top: 0;right: 0;float: none;margin: 32px 0 0 0;}
+  .main .profile-text-box .title {display: inline-block;font-size: 24px;margin: 0 0 16px 0;font-family: 'GyeonggiBatang_Batang_Regular';font-weight: 700;color: #000;}
+  .main .profile-text-box .title-point {display: inline-block;font-size: 24px;font-weight: 700;color: #000;margin: 0 6px 0 0;}
+  .main .profile-experience .education li {font-size: 16px;color: #959595;}
+  .main .profile-experience .career li {font-size: 16px;color: #959595;}
+  .main .profile .img-title {display: none;}
+
+  /* 시설 둘러보기 */
+  /* .main .ft {height: 680px;} */
+
+  /* 오시는 길 */
+  .main .wtc .inner {padding: 0;}
+  .main .wtc .contents {padding: 0 0 120px 0;}
+  .main .wtc .info-wrap {position: relative;padding: 20px; background-image: none;}
+  .main .wtc-traffic {padding: 20px 0 0 0; box-sizing: initial;}
+  .main .wtc-traffic .box-address {text-align: initial; margin: 0 0 20px 0;}
+  .main .wtc-traffic .box-address .icon {background-size: 36px; background-position: 0 0; width: 36px; height: 36px;}
+  .main .wtc-traffic .box-address .desc {margin: 0 0 0 8px; font-size: 16px;}
+  .main .wtc-traffic .box-bus {width: auto; display: block; margin: 0 0 20px 0; text-align: initial;}
+  .main .wtc-traffic .box-bus .icon {display: inline-block; background-size: 36px; background-position: 0 -67px; width: 36px; height: 36px;}
+  .main .wtc-traffic .box-bus .info {width: 100%; display: inline-block; text-align: initial; margin: 0 0 0 8px;}
+  .main .wtc-traffic .box-bus dl {display: inline-block; margin: 0 16px 0 0; font-size: 16px;}
+  .main .wtc-traffic .box-bus p {font-size: 16px;}
+  .main .wtc-traffic .box-subway {width: auto; display: initial; text-align: initial;}
+  .main .wtc-traffic .box-subway .icon {display: inline-block; background-size: 36px; background-position: 0 -135px; width: 36px; height: 36px;}
+  .main .wtc-traffic .box-subway .info {width: auto; display: inline-block; text-align: initial; margin: 0 0 0 8px;}
+  .main .wtc-traffic .box-subway dl {font-size: 16px;}
+  .main .wtc-info {padding: 28px 0 0 0;}
+  .main .wtc-info .hosp-time {width: auto; display: block; margin: 0 0 20px 0; text-align: initial;}
+  .main .wtc-info .hosp-time .tit {margin: 0 0 12px 0; font-size: 16px;}
+  .main .wtc-info .hosp-time .icon {display: inline-block; background-size: 36px; background-position: 0 -202px; width: 36px; height: 36px;}
+  .main .wtc-info .hosp-time .info {display: inline-block; vertical-align: middle; margin: 0 0 0 8px;}
+  .main .wtc-info .hosp-time dl {text-align: initial; line-height: initial; margin: 0 0 6px 0;}
+  .main .wtc-info .hosp-time dt {display: inline-block; margin: 0 16px 0 0; vertical-align: middle; width: auto; font-size: 16px; color: #eae6dd;}
+  .main .wtc-info .hosp-time dd {display: inline-block; vertical-align: middle; font-size: 16px;}
+  .main .wtc-info .contact {width: auto; display: inline-block; margin: 0 60px 0 0; padding: 0; box-sizing: initial;}
+  .main .wtc-info .contact .tit {display: block; font-size: 16px;}
+  .main .wtc-info .contact .phone-num {display: block; color: #fff; font-size: 16px;}
+  .main .wtc-info .consul {width: auto; display: inline-block; padding: 0; box-sizing: initial;}
+  .main .wtc-info .consul .tit {display: block; margin: 0; font-size: 16px;}
+  .main .wtc-info .consul .more {position: relative; display: inline-block; font-size: 16px; padding: 0 40px 0 0;}
+  .main .wtc-map-more {position: absolute; right: 0; left: 0; bottom: -50px;}
+  .main .wtc-map-more .placard-name {width: 100%; height: 64px; text-align: initial; background-size: 197px; background-position: right top;}
+  .main .wtc-map-more .placard-name .title {font-size: 20px; line-height: 64px;}
+}
