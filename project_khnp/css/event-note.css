@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* 공통 */
+.energy-nota .content-wrap {
+  position: relative;
+  height: 940px;
+  border: 1px solid #999;
+  border-radius: 80px;
+  background-color: #fff;
+}
+
+.energy-nota .content-wrap .img-wrap {}
+.energy-nota .content-wrap .img-wrap img {
+  width: 100%;
+}
+/* 끝 - 공통 */
+
+.nota-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.nota-content .wrap {
+  padding: 60px 0 0 0;
+}
+.nota-content .wrap-content {}
+.nota-content .wrap-content figure {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 60px 0;
+}
+.nota-content .wrap-content figure img {}
+.nota-content .wrap-content .txt-area {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 20px 0;
+}
+.nota-content .wrap-content .txt-area strong {
+  font-size: 60px;
+  padding: 0 32px;
+}
+.nota-content .wrap-content .txt-area .small {
+  color: #008d36;
+}
+.nota-content .wrap-content .txt-area .big {
+  color: #1d70b7;
+}
+.nota-content .wrap-content .download {}
+.nota-content .wrap-content .download ul {}
+.nota-content .wrap-content .download-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 16px 0;
+}
+.nota-content .wrap-content .download-item .txt {
+  font-size: 32px;
+}
+.nota-content .wrap-content .download-item .btn-dow {
+  padding: 0 16px;
+}
+.nota-content .wrap-content .download-item .btn-dow img {}
+.nota-content .wrap-content .download-item .small-dow {}
+.nota-content .wrap-content .download-item .big-dow {}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1280px) and (min-width: 769px) {
+  .nota-content {}
+
+  .nota-content figure {}
+
+  .nota-content figure img {
+    /* width: 100%; */
+  }
+
+  .nota-content .wrap-content .txt-area strong {
+    font-size: 32px;
+  }
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .nota-content {}
+
+  .nota-content figure {}
+
+  .nota-content figure img {
+    width: 100%;
+  }
+
+  .nota-content .wrap-content .txt-area strong {
+    font-size: 24px;
+  }
+  .nota-content .wrap-content .download-item {
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 480px) and (min-width: 0px) {
+  .nota-content {}
+
+  .nota-content figure {}
+
+  .nota-content figure img {
+    width: 100%;
+  }
+
+
+  .nota-content .wrap-content .txt-area strong {
+    font-size: 20px;
+  }
+  .nota-content .wrap-content .download-item {
+    flex-direction: column;
+  }
+}

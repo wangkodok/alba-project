@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="페이지 설명">
+  <meta name="keywords" content="페이지에, 들어간, 키워드, 단어로, 입력, 구분은, 쉼표로, 작성하기">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="페이지 제목">
+  <meta property="og:description" content="페이지 설명">
+  <meta property="og:image" content="페이지 썸네일 이미지 주소">
+  <meta property="og:url" content="페이지 주소">
+  <meta property="twitter:card" content="summary">
+  <meta property="twitter:title" content="페이지 제목">
+  <meta property="twitter:description" content="페이지 설명">
+  <meta property="twitter:image" content="페이지 썸네일 이미지 주소">
+  <link rel="stylesheet" href="../common/reset.css">
+  <link rel="stylesheet" href="../common/common.css">
+  <link rel="stylesheet" href="../common/font.css">
+  <link rel="stylesheet" href="../css/content-common.css">
+  <title>주관식 | 한수원</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="section-container">
+      <!-- 페이지 비주얼 -->
+      <div class="nav-wrap">
+        <ul class="list">
+          <div class="link-list">
+            <a href="#"><img src="../image/hd_home-page.png" alt="홈페이지"></a>
+            <a href="#"><img src="../image/hd_online_pr.png" alt="온라인홍보관"></a>
+            <div class="sns-list">
+              <a href="#"><img src="../image/hd_youtube.png" alt="유튜브"></a>
+              <a href="#"><img src="../image/hd_facebook.png" alt="페이스북"></a>
+              <a href="#"><img src="../image/hd_insta.png" alt="인스타그램"></a>
+              <a href="#"><img src="../image/hd_blog.png" alt="블로그"></a>
+            </div>
+          </div>
+          <div class="user-area">
+            <li class="item"><a href="#"><img src="../image/visual_top_list_01.png" alt=""></a></li>
+            <li class="item"><a href="#"><img src="../image/visual_top_list_02.png" alt=""></a></li>
+            <li class="item"><a href="#"><img src="../image/visual_top_list_03.png" alt=""></a></li>
+          </div>
+        </ul>
+      </div>
+      <style>
+        .nav-wrap {
+          max-width: 980px;
+          padding: 20px 0;
+          box-sizing: border-box;
+          margin: 0 auto;
+        }
+        .nav-wrap .list {
+          display: flex;
+          justify-content: space-between;
+        }
+        .nav-wrap .list .link-list, 
+        .nav-wrap .list .user-area {
+          display: flex;
+          align-items: center;
+        }
+        .nav-wrap .list .link-list .sns-list {
+          display: flex;
+        }
+        .nav-wrap .list .link-list .sns-list > a {
+          margin: 0 6px 0 0;
+        }
+        .nav-wrap .list .link-list .sns-list > a > img {
+          width: 100%;
+        }
+        .nav-wrap .list .link-list > a {
+          margin: 0 6px 0 0;
+        }
+        .nav-wrap .list .link-list > a > img {
+          width: 100%;
+          /* height: 24px; */
+        }
+        .nav-wrap .list .user-area > li + li > a {
+          margin: 0 0 0 6px;
+        }
+        .nav-wrap .list .user-area > li > a > img {
+          width: 100%;
+          /* height: 24px; */
+        }
+
+        @media screen and (max-width: 980px) and (min-width: 769px) {
+          .nav-wrap .list .link-list > a > img {
+            height: 24px;
+          }
+          .nav-wrap .list .link-list .sns-list > a > img {
+            height: 24px;
+          }
+          .nav-wrap .list .user-area > li > a > img {
+            height: 24px;
+          }
+        }
+
+        @media screen and (max-width: 768px) and (min-width: 320px) {
+          .nav-wrap .list .link-list > a > img {
+            height: auto;
+          }
+          .nav-wrap .list .link-list .sns-list > a > img {
+            height: auto;
+          }
+          .nav-wrap .list .user-area > li > a > img {
+            height: auto;
+          }
+        }
+      </style>
+      <section class="section-visual">
+        <div class="content-inner">
+          <!-- <div class="nav-wrap">
+            <ul class="list">
+              <li class="item"><a href="#"><img src="../image/visual_top_list_01.png" alt=""></a></li>
+              <li class="item"><a href=""><img src="../image/visual_top_list_02.png" alt=""></a></li>
+              <li class="item"><a href=""><img src="../image/visual_top_list_03.png" alt=""></a></li>
+            </ul>
+          </div> -->
+          <div class="img-wrap">
+            <figure>
+              <img src="../image/main_content_visual_inner.png" alt="">
+            </figure>
+          </div>
+          <div class="visual-bottom-wrap">
+            <ul class="list">
+              <li>
+                <a href="">
+                  <img class="img-off" src="../image/visual_bottom_01_off.png" alt="">
+                  <img class="img-on" src="../image/visual_bottom_01_on.png" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img class="img-off" src="../image/visual_bottom_02_off.png" alt="">
+                  <img class="img-on" src="../image/visual_bottom_02_on.png" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img class="img-off" src="../image/visual_bottom_03_off.png" alt="">
+                  <img class="img-on" src="../image/visual_bottom_03_on.png" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img class="img-off" src="../image/visual_bottom_04_off.png" alt="">
+                  <img class="img-on" src="../image/visual_bottom_04_on.png" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img class="img-off" src="../image/visual_bottom_05_off.png" alt="">
+                  <img class="img-on" src="../image/visual_bottom_05_on.png" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- 페이지 콘텐츠 -->
+      <section class="section-content answer-content">
+        <div class="content-inner">
+          <h3>ENERGY UP! 골든벨</h3>
+          <ul class="list-wrap">
+            <li class="list-item"> <!-- 클래스 on 추가하면 활성화 -->
+              <a href="#" class="text-wrap">
+                <span>1주차</span>
+                <strong>에너지 기초</strong>
+              </a>
+              <figure>
+                <img class="disabled" src="../image/content_top_disabled.png" alt="">
+                <img class="activate" src="../image/content_top_activate.png" alt="">
+              </figure>
+            </li>
+            <li class="list-item">
+              <a href="#" class="text-wrap">
+                <span>2주차</span>
+                <strong>원자력 기초</strong>
+              </a>
+              <figure>
+                <img class="disabled" src="../image/content_top_disabled.png" alt="">
+                <img class="activate" src="../image/content_top_activate.png" alt="">
+              </figure>
+            </li>
+            <li class="list-item">
+              <a href="#" class="text-wrap">
+                <span>3주차</span>
+                <strong>신재생 에너지</strong>
+              </a>
+              <figure>
+                <img class="disabled" src="../image/content_top_disabled.png" alt="">
+                <img class="activate" src="../image/content_top_activate.png" alt="">
+              </figure>
+            </li>
+            <li class="list-item">
+              <a href="#" class="text-wrap">
+                <span>4주차</span>
+                <strong>탄소중립</strong>
+              </a>
+              <figure>
+                <img class="disabled" src="../image/content_top_disabled.png" alt="">
+                <img class="activate" src="../image/content_top_activate.png" alt="">
+              </figure>
+            </li>
+            <li class="list-item">
+              <a href="#" class="text-wrap">
+                <span>5주차</span>
+                <strong>한수원</strong>
+              </a>
+              <figure>
+                <img class="disabled" src="../image/content_top_disabled.png" alt="">
+                <img class="activate" src="../image/content_top_activate.png" alt="">
+              </figure>
+            </li>
+          </ul>
+          <div class="progress">
+            <div class="progress-count">
+              남은시간:
+              <span>
+                00
+              </span>
+              초
+            </div>
+            <div class="progress-percent">
+              <div class="list">
+                <span>0%</span>
+                <span>50%</span>
+                <span>100%</span>
+              </div>
+              <input type="range" value="0">
+            </div>
+          </div>
+          <div class="question-wrap">
+            <div class="content">
+              <p class="desc">5. 다음 중 정답을 숫자로 적어주세요 (1점)</p>
+              <div class="question-list">
+                <ul class="list">
+                  <li>1. 안녕하세요. 한수원 프로젝트 작업하는 중 입니다.</li>
+                  <li>2. 현재 프로젝트 진행 중이며, 디테일 작업하고 있습니다.</li>
+                  <li>3. html, css 초반 부분 설계 디버깅 진행하고 있습니다.</li>
+                  <li>4. 대부분 css 에서 이슈 생겨서 수정 진행하고 있습니다.</li>
+                  <li>5. 테스트용 테스트용 테스트용 테스트용 테스트용 테스트용</li>
+                </ul>
+              </div>
+              <div class="input-wrap">
+                <div class="text-input">
+                  <label for="uid">정답:</label>
+                  <input type="text" id="uid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page-btn">
+            <button class="next-btn">다음 ▶</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- 페이지 푸터 -->
+      <section class="footer">
+        <div class="footer-inner">
+          <p class="foot-01">ENERGY UP! 골든벨 운영국</p>
+          <p class="foot-02">(05072)서울특별시 광진구 아차산로30길 36, 2층 105호 그린하트</p>
+          <p class="foot-03">
+            <span class="foot-03-01">대표 심상옥</span> | <span class="foot-03-02">사업자등록번호 629-87-01816</span>
+          </p>
+          <p class="foot-04">E-mail: gh1899@naver.com | TEL: 02-302-7599</p>
+          <p class="foot-05">Copyright greenheart. All Rights Reserved</p>
+        </div>
+      </section>
+      <style>
+        .footer {
+          border-top: 1px solid #000;
+          background-color: #666;
+        }
+        .footer-inner {
+          max-width: 980px;
+          padding: 16px;
+          box-sizing: border-box;
+          margin: 0 auto;
+        }
+        .footer p {
+          margin: 0 0 10px 0;
+          font-size: 16px;
+          color: #fff;
+        }
+        .footer .foot-01 {
+          font-weight: 700;
+        }
+        .footer .foot-02 {}
+        .footer .foot-03 {}
+        .footer .foot-03-01 {
+          font-weight: 700;
+        }
+        .footer .foot-03-02 {}
+        .footer .foot-04 {}
+        .footer .foot-05 {
+          color: #999;
+        }
+      </style>
+    </div>
+  </div>
+  
+</body>
+
+</html>

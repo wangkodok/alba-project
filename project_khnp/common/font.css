@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/* 
+  폰트명 : SB 어그로
+*/
+
+@font-face {
+  font-family: 'SB 어그로OTF B';
+  src: url('../font/SB\ 어그로OTF\ B.otf') format('woff');
+}
+
+@font-face {
+  font-family: 'SB 어그로OTF L';
+  src: url('../font/SB\ 어그로OTF\ L.otf') format('woff');
+}
+
+@font-face {
+  font-family: 'SB 어그로OTF M';
+  src: url('../font/SB\ 어그로OTF\ M.otf') format('woff');
+}
+
+
+
+
+
+/* 
+  폰트명 : KoPubWorld - 돋움체
+*/
+
+@font-face {
+  font-family: 'KoPubWorld Dotum_Pro_Bold';
+  src: url('../font/KoPubWorld\ Batang_Pro\ Bold.otf') format('woff');
+}
+
+@font-face {
+  font-family: 'KoPubWorld Batang_Pro Light';
+  src: url('../font/KoPubWorld\ Batang_Pro\ Light.otf') format('woff');
+}
+
+@font-face {
+  font-family: 'KoPubWorld Dotum_Pro_Medium';
+  src: url('../font/KoPubWorld\ Batang_Pro\ Medium.otf') format('woff');
+}
+
+
+
+
+
+/* 
+  폰트명 : BMJUA - 주아체
+*/
+
+@font-face {
+  font-family: 'BMJUA';
+  src: url('../font/BMJUA_otf.otf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

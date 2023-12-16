@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+.energy-level {}
+.energy-level .content-wrap {
+    position: relative;
+}
+.energy-level .img-wrap {}
+.energy-level .img-wrap > img {
+    width: 100%;
+}
+
+
+
+
+
+.energy-level .question-wrap {
+    position: absolute;
+    /* bottom: 80px; */
+    bottom: 6.060606%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.energy-level .content .pdf-wrap {}
+.energy-level .content .pdf-list {
+    display: flex;
+    justify-content: center;
+}
+.energy-level .content .pdf-list li {
+    width: 100%;
+}
+.energy-level .content .pdf-list a {}
+.energy-level .content .pdf-list figure {
+    width: 70%;
+    margin: 0 auto;
+}
+.energy-level .content .pdf-list img {
+    width: 100%;
+}
+.energy-level .content .pdf-list span {}
+.energy-level .content .pdf-list .yellow {}
+.energy-level .content .pdf-list .teal {}
